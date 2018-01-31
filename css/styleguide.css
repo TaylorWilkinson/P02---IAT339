@@ -1,7 +1,22 @@
 h1{
   font-family: 'Paytone One', sans-serif;
+  color: #17C11A;
 }
 
 h2, h3, h4, p{
   font-family: 'Open Sans', sans-serif;
+}
+
+#interactive, #styling, #combined {
+  border-top: 0.15em solid #DBDBDB;
+  margin: 1.5rem 0rem;
+}
+
+.element {
+  border-top: 0.05em dashed #DADADA;
+  margin: 1rem 0rem;
+}
+
+body {
+  color: #2D2D2D;
 }
