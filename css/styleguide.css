@@ -151,17 +151,21 @@ input[type=text] {
 
 /*RESET BUTTON*/
 .reset-button {
-  background-color: #2D2D2D;
-  transition: background-color 0.5s;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 0.50em;
   display: inline-block;
+  color: #62D006;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0.5em;
+  border-style:solid;
+  border-width:thin;
+  border-color:#62D006;
   text-decoration: none;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
 }
 
 .reset-button:active, .reset-button:hover, .reset-button:focus {
-  background-color: #DBDBDB;
-  color: white;
+  background-color: #62D006;
+  color:#fff;
+  border-color:#fff;
 }
