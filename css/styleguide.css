@@ -71,3 +71,23 @@ code {
   display: block;
   max-width: 75%;
 }
+
+.nav-button {
+  display: inline-block;
+  padding: 1rem 1rem;
+  color: #FFF;
+  background-color: #04A05D;
+  border-radius: 0.5em;
+  border-style:solid;
+  border-width:thin;
+  border-color:#ffffff;
+  text-decoration: none;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.nav-button:hover, .nav-button:focus {
+  background-color: #ffffff;
+  color:#62D006;
+  border-color:#62D006;
+}
