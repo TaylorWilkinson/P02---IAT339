@@ -97,18 +97,75 @@
       <h2>Text Styling</h2>
       <!-- headings -->
       <section class="element">
+        <h3>Headings</h3>
+        <h4>CSS selectors:</h4>
+        <p>h1, h2, and h3 element tags</p>
+        <h4>Sample code:</h4>
+        <pre>
+<code>&lt;h1&gt;header 1&lt;/h1&gt;
+&lt;h2&gt;header 2&lt;/h2&gt;
+&lt;h3&gt;header 3&lt;/h3&gt;
+</code>
+        </pre>
+        <h4>Rendered element:</h4>
+        <!-- -->
       </section>
 
       <!-- paragraph -->
       <section class="element">
+        <h3>Paragraph</h3>
+        <h4>CSS selectors:</h4>
+        <p>p element tag</p>
+        <h4>Sample code:</h4>
+        <code>
+          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius quam neque, ut interdum mi volutpat eget. Suspendisse mauris turpis, gravida non purus nec, porta suscipit nisi.&lt;/p&gt;
+        </code>
+        <h4>Rendered element:</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius quam neque, ut interdum mi volutpat eget. Suspendisse mauris turpis, gravida non purus nec, porta suscipit nisi.</p>
       </section>
 
       <!-- bulleted list -->
       <section class="element">
+        <h3>Bulleted List</h3>
+        <h4>CSS selector:</h4>
+        <p>ul element tag</p>
+        <h4>Sample code:</h4>
+        <pre>
+<code>&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Orange&lt;/li&gt;
+&lt;li&gt;Grape&lt;/li&gt;
+&lt;/ul&gt;
+</code>
+        </pre>
+        <h4>Rendered element:</h4>
+        <ul>
+          <li>Apple</li>
+          <li>Orange</li>
+          <li>Grape</li>
+        </ul>
       </section>
 
       <!-- numbered list -->
       <section class="element">
+        <h3>Numbered List</h3>
+        <h4>CSS selector:</h4>
+        <p>ol element tag</p>
+        <h4>Sample code:</h4>
+        <pre>
+<code>&lt;ol&gt;
+&lt;li&gt;Item A&lt;/li&gt;
+&lt;li&gt;Item B&lt;/li&gt;
+&lt;li&gt;Item C&lt;/li&gt;
+&lt;/ol&gt;
+</code>
+        </pre>
+        <h4>Rendered element:</h4>
+        <ol>
+          <li>Item A</li>
+          <li>Item B</li>
+          <li>Item C</li>
+        </ol>
       </section>
     </section>
 
@@ -117,20 +174,113 @@
       <h2>Combined Elements</h2>
       <!-- main navigation -->
       <section class="element">
+        <h3>Main Navigation</h3>
+        <h4>CSS selector:</h4>
+        <p></p>
+        <h4>Sample code:</h4>
+        <pre>
+<code>&lt;nav class="nav-bar"&gt;
+&lt;a href="#" class="nav-button" id="nav-bar"&gt;PRODUCTS&lt;/a&gt;
+&lt;a href="#" class="nav-button" id="nav-bar"&gt;SERVICES&lt;/a&gt;
+&lt;a href="#" class="nav-button" id="nav-bar"&gt;"APPLY&lt;/a&gt;
+&lt;/nav&gt;
+</code>
+        </pre>
+        <h4>Rendered element:</h4>
+        <nav class="nav-bar">
+          <a href="#" class="nav-button">PRODUCTS</a>
+          <a href="#" class="nav-button">SERVICES</a>
+          <a href="#" class="nav-button">APPLY</a>
+        </nav>
       </section>
 
       <!-- product listing -->
       <section class="element">
+        <h3>Product Listing</h3>
+        <h4>CSS selector:</h4>
+        <p>.product-listing</p>
+        <h4>Sample code:</h4>
+        <pre>
+<code>&lt;div class="product-listing"&gt;
+&lt;img src="img/placeholder-house.jpeg" alt="Placeholder Image" class="placeholder"&gt;
+&lt;h2&gt;Happy Mortgage&lt;/h2&gt;
+&lt;h3&gt;3.30% - 5 year closed&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius quam neque, ut interdum mi volutpat eget.&lt;/p&gt;
+&lt;input class="submit-button" type="submit" value="APPLY"&gt;
+&lt;/div&gt;
+</code>
+        </pre>
+        <h4>Rendered element:</h4>
+        <div class="product-listing">
+          <img src="img/placeholder-house.jpeg" alt="Placeholder Image" class="placeholder">
+          <h2>Happy Mortgage</h2>
+          <h3>3.30% - 5 year closed</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius quam neque, ut interdum mi volutpat eget.</p>
+          <input class="submit-button" type="submit" value="APPLY">
+        </div>
       </section>
 
       <!-- website grid structure -->
       <section class="element">
+        <h3>Website Grid Structure</h3>
+        <h4>CSS selector:</h4>
+        <p>.container .block .col[#]</p>
+        <h4>Sample code:</h4>
+        <pre>
+<code>&lt;div class="container"&gt;
+&lt;p class="block grid-structure col1"&gt;column 1&lt;/p&gt;
+&lt;p class="block grid-structure col2"&gt;column 2&lt;/p&gt;
+&lt;p class="block grid-structure col3"&gt;column 3&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="container"&gt;
+&lt;p class="block grid-structure col1"&gt;column 1&lt;/p&gt;
+&lt;p class="block grid-structure col2"&gt;column 2&lt;/p&gt;
+&lt;p class="block grid-structure col3"&gt;column 3&lt;/p&gt;
+&lt;p class="block grid-structure col4"&gt;column 4&lt;/p&gt;
+&lt;/div&gt;
+</code>
+        </pre>
+        <h4>Rendered element:</h4>
+        <div class="container">
+          <p class="block grid-structure col1">column 1</p>
+          <p class="block grid-structure col2">column 2</p>
+          <p class="block grid-structure col3">column 3</p>
+        </div>
+        <div class="container">
+          <p class="block grid-structure col1">column 1</p>
+          <p class="block grid-structure col2">column 2</p>
+          <p class="block grid-structure col3">column 3</p>
+          <p class="block grid-structure col4">column 4</p>
+        </div>
       </section>
 
       <!-- website colour swatches -->
       <section class="element">
+        <h3>Website Colour Swatches</h3>
+        <h4>CSS selector:</h4>
+        <p>.container .block .swatch .s[#]</p>
+        <h4>Sample code:</h4>
+        <pre>
+<code>&lt;div class="container"&gt;
+  &lt;p class="block swatch s1"&gt;#17C11A&lt;/p&gt;
+  &lt;p class="block swatch s2"&gt;#C8E9A0&lt;/p&gt;
+  &lt;p class="block swatch s3"&gt;#17BEC1&lt;/p&gt;
+  &lt;p class="block swatch s4"&gt;#FFFFFF&lt;/p&gt;
+  &lt;p class="block swatch s5"&gt;#DBDBDB&lt;/p&gt;
+  &lt;p class="block swatch s6"&gt;#2D2D2D&lt;/p&gt;
+&lt;/div&gt;
+</code>
+        </pre>
+        <h4>Rendered element:</h4>
+        <div class="container">
+          <p class="block swatch s1">#17C11A</p>
+          <p class="block swatch s2">#C8E9A0</p>
+          <p class="block swatch s3">#17BEC1</p>
+          <p class="block swatch s4">#FFFFFF</p>
+          <p class="block swatch s5">#DBDBDB</p>
+          <p class="block swatch s6">#2D2D2D</p>
+        </div>
       </section>
-
     </section>
 
     <!-- SITE MAP -->
