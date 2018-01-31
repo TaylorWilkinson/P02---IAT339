@@ -43,3 +43,9 @@
 
   margin: 0rem 2rem;
 }
+
+/*Grid Structure block*/
+.block {
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+}
