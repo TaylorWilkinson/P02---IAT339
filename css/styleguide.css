@@ -60,3 +60,10 @@ a:active, a:hover, a:focus {
 header {
   margin-bottom: 2rem;
 }
+
+code {
+  background-color: #DADADA;
+  padding: 1rem;
+  display: block;
+  width: 75%
+}
