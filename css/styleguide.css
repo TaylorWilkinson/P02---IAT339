@@ -1,10 +1,5 @@
-h1{
-  font-family: 'Paytone One', sans-serif;
-  color: #17C11A;
-}
-
-h2, h3, h4, p{
-  font-family: 'Open Sans', sans-serif;
+body {
+  color: #2D2D2D;
 }
 
 #interactive, #styling, #combined {
@@ -17,6 +12,51 @@ h2, h3, h4, p{
   margin: 1rem 0rem;
 }
 
-body {
-  color: #2D2D2D;
+h1{
+  font-family: 'Paytone One', sans-serif;
+  color: #17C11A;
+}
+
+h2, h3, h4, p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  margin: 0.75rem 0rem;
+  font-size: 1.50rem;
+  color: #17C11A;
+}
+
+h3 {
+  margin: 0.75rem 0rem;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0.75rem 0rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+p, ol, ul {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  max-width: 60rem;
+  font-size: 0.90rem;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #17BEC1;
+  transition: color 0.5s;
+}
+
+a:active, a:hover, a:focus {
+  color: #C8E9A0;
+}
+
+header {
+  margin-bottom: 2rem;
 }
