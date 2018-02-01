@@ -140,16 +140,19 @@ input[type=text] {
   padding: 0.50em;
   border-style:solid;
   border-width:thin;
-  border-color:#ffffff;
+  border-color: #04A05D;
   text-decoration: none;
   -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
   transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
 }
 
 .submit-button:active, .submit-button:hover, .submit-button:focus {
-  background-color: #ffffff;
+  /* background-color: #ffffff;
   color:#62D006;
-  border-color:#62D006;
+  border-color:#62D006; */
+  background-color: #62D006;
+  border-color: #62D006;
+  color:#fff;
 }
 
 /*RESET BUTTON*/
@@ -169,8 +172,8 @@ input[type=text] {
 
 .reset-button:active, .reset-button:hover, .reset-button:focus {
   background-color: #62D006;
+  border-color: #62D006;
   color:#fff;
-  border-color:#fff;
 }
 
 /*BULLETED POITNS AND ORDERD POINTS*/
