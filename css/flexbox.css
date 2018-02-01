@@ -69,6 +69,27 @@
 	text-align:center;
 }
 
+/*PRODUCT LISTING*/
+.product-container{
+
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+
+}
+
+.product-item{
+  flex-basis:100%;
+}
+
 /*Grid Structure block*/
 .block {
   -ms-flex-grow: 1;
