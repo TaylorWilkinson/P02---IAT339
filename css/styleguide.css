@@ -187,3 +187,34 @@ input[type=text] {
   font-size:1.1rem;
   line-height:1.8rem;
 }
+
+/* Images */
+img {
+  height: auto;
+  max-width: 80%;
+  border: 1px solid #DBDBDB;
+}
+
+figure {
+	margin: 1em 0px;
+}
+
+figcaption {
+	font-style: italic;
+  font-weight: 100;
+  font-size: 0.75rem;
+}
+
+section p {
+  margin-top: 0;
+}
+
+/* Product Listing */
+.product-listing {
+  text-align: center;
+  border: 2px solid #17C11A;
+  background: #FFFFFF;
+  padding: 1rem;
+  max-width: 30%;
+  border-radius: 1em;
+}
