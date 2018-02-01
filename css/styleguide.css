@@ -172,3 +172,18 @@ input[type=text] {
   color:#fff;
   border-color:#fff;
 }
+
+/*BULLETED POITNS AND ORDERD POINTS*/
+
+.styling-bullet{
+  list-style-type: square;
+  color:#2D2D2D;
+  font-size:1rem;
+  line-height:1.8rem;
+}
+
+.styling-ordered{
+  color:#2D2D2D;
+  font-size:1.1rem;
+  line-height:1.8rem;
+}
