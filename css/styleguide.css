@@ -65,11 +65,11 @@ pre {
   white-space: pre-wrap;
 }
 
-code {
+section code {
   background-color: #DADADA;
-  padding: 1rem;
-  display: block;
-  max-width: 75%;
+    padding: 0.5em 0.75em;
+    display: block;
+    max-width:100%
 }
 
 /* index.html Nav Buttons*/
@@ -186,4 +186,88 @@ input[type=text] {
   color:#2D2D2D;
   font-size:1.1rem;
   line-height:1.8rem;
+}
+
+/* Images */
+img {
+  height: auto;
+  max-width: 80%;
+  border: 1px solid #DBDBDB;
+}
+
+figure {
+	margin: 1em 0px;
+}
+
+figcaption {
+	font-style: italic;
+  font-weight: 100;
+  font-size: 0.75rem;
+}
+
+section p {
+  margin-top: 0;
+}
+
+/* Product Listing */
+.product-item {
+  border: 2px solid #DBDBDB;
+  background: #FFFFFF;
+  padding: 1rem;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.placeholder{
+  max-width:100%;
+}
+
+/* Grid Structure */
+.col1 {
+  background-color: #000;
+}
+
+.col2 {
+  background-color: #333;
+}
+
+.col3 {
+  background-color: #666;
+}
+
+.col4 {
+  background-color: #999;
+}
+
+.grid-structure {
+  text-align: center;
+  color: #FFFFFF;
+  padding: 2.5em 0;
+}
+
+/* Color Swatches */
+.swatch {
+  text-align: center;
+  padding: 4em 2em;
+  color: #000;
+}
+
+.s1 {
+  background: #62D006;
+}
+.s2 {
+  background: #04A05D;
+}
+.s3 {
+  background: #2EBE80;
+}
+.s4 {
+  background: #FFFFFF;
+}
+.s5 {
+  background: #DBDBDB;
+}
+.s6 {
+  background: #2D2D2D;
+  color: #DBDBDB;
 }
