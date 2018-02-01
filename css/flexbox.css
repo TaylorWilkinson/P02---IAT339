@@ -103,12 +103,20 @@
     flex-basis:50%;
   }
 
+  .product-item{
+    flex-basis:50%;
+  }
+
 }
 
 @media(min-width:53.12em){
 
   .nav-item-structure{
     flex-basis:20%;
+  }
+
+  .product-item{
+    flex-basis:40%;
   }
 
 }
