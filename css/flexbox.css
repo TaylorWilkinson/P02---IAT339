@@ -74,3 +74,20 @@
   -ms-flex-grow: 1;
   flex-grow: 1;
 }
+
+/*GRID FOR THE MAIN NAV*/
+@media(min-width:37.5em) and (max-width:53.12em){
+
+  .nav-item-structure{
+    flex-basis:50%;
+  }
+
+}
+
+@media(min-width:53.12em){
+
+  .nav-item-structure{
+    flex-basis:20%;
+  }
+
+}

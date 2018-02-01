@@ -218,3 +218,53 @@ section p {
   max-width: 30%;
   border-radius: 1em;
 }
+
+/* Grid Structure */
+.col1 {
+  background-color: #000;
+}
+
+.col2 {
+  background-color: #333;
+}
+
+.col3 {
+  background-color: #666;
+}
+
+.col4 {
+  background-color: #999;
+}
+
+.grid-structure {
+  text-align: center;
+  color: #FFFFFF;
+  padding: 2.5em 0;
+}
+
+/* Color Swatches */
+.swatch {
+  text-align: center;
+  padding: 4em 2em;
+  color: #000;
+}
+
+.s1 {
+  background: #17C11A;
+}
+.s2 {
+  background: #C8E9A0;
+}
+.s3 {
+  background: #17BEC1;
+}
+.s4 {
+  background: #FFFFFF;
+}
+.s5 {
+  background: #DBDBDB;
+}
+.s6 {
+  background: #2D2D2D;
+  color: #DBDBDB;
+}
