@@ -2,7 +2,7 @@ body {
   color: #2D2D2D;
 }
 
-#interactive, #styling, #combined {
+#interactive, #styling, #combined, #sitemap, #synced-git{
   border-top: 0.15em solid #DBDBDB;
   margin: 1.5rem 0rem;
 }
@@ -203,9 +203,15 @@ figure {
 }
 
 figcaption {
+  font-family: 'Open Sans', sans-serif;
 	font-style: italic;
   font-weight: 100;
   font-size: 0.75rem;
+}
+
+.large-img {
+  height: auto;
+  max-width: 100%;
 }
 
 section p {
