@@ -2,7 +2,7 @@ body {
   color: #2D2D2D;
 }
 
-#interactive, #styling, #combined {
+#interactive, #styling, #combined, #sitemap, #synced-git{
   border-top: 0.15em solid #DBDBDB;
   margin: 1.5rem 0rem;
 }
@@ -48,12 +48,7 @@ p, ol, ul {
 a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  color: #2EBE80;
-  transition: color 0.5s;
-}
-
-a:active, a:hover, a:focus {
-  color: #04A05D;
+  color: #62D006;
 }
 
 header {
@@ -72,23 +67,37 @@ section code {
     max-width:100%
 }
 
-/* index.html Nav Buttons*/
+/* Nav Buttons*/
 nav {
   margin: 1rem 0rem;
 }
 
 nav a {
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  color: #2EBE80;
+  color: #04A05D;
   transition: color 0.5s;
   display: block;
 }
 
-nav a:active, a:hover, a:focus {
-  color: #04A05D;
+nav a:active, nav a:hover, nav a:focus {
+  color: #62D006;
 }
 
 /*--elements---*/
+
+/* In-Text Links*/
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #62D006;
+  transition: color 0.5s;
+}
+
+a:active, a:hover, a:focus {
+  color: #04A05D;
+}
 
 /*NAV BUTTON*/
 .nav-button {
@@ -147,9 +156,6 @@ input[type=text] {
 }
 
 .submit-button:active, .submit-button:hover, .submit-button:focus {
-  /* background-color: #ffffff;
-  color:#62D006;
-  border-color:#62D006; */
   background-color: #62D006;
   border-color: #62D006;
   color:#fff;
@@ -203,9 +209,15 @@ figure {
 }
 
 figcaption {
+  font-family: 'Open Sans', sans-serif;
 	font-style: italic;
   font-weight: 100;
   font-size: 0.75rem;
+}
+
+.large-img {
+  height: auto;
+  max-width: 100%;
 }
 
 section p {
