@@ -48,12 +48,12 @@ p, ol, ul {
 a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  color: #2EBE80;
+  color: #62D006;
   transition: color 0.5s;
 }
 
 a:active, a:hover, a:focus {
-  color: #DBDBDD;
+  color: #04A05D;
 }
 
 header {
@@ -79,13 +79,13 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #2EBE80;
+  color: #62D006;
   transition: color 0.5s;
   display: block;
 }
 
 nav a:active, a:hover, a:focus {
-  color: #DBDBDD;
+  color: #04A05D;
 }
 
 /*--elements---*/
