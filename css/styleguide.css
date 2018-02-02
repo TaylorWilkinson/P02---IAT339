@@ -77,18 +77,34 @@ nav {
   margin: 1rem 0rem;
 }
 
-nav a {
-  text-decoration: none;
-  color: #04A05D;
-  transition: color 0.5s;
+nav a{
   display: block;
 }
 
-nav a:active, a:hover, a:focus {
+.nav-item a {
+  text-decoration: none;
+  color: #04A05D;
+  transition: color 0.5s;
+}
+
+.nav-item a:active, a:hover, a:focus {
   color: #62D006;
 }
 
 /*--elements---*/
+
+/* In-Text Links*/
+
+.in-text-link a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #62D006;
+  transition: color 0.5s;
+}
+
+.in-text-link a:active, a:hover, a:focus {
+  color: #04A05D;
+}
 
 /*NAV BUTTON*/
 .nav-button {
