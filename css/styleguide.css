@@ -49,11 +49,6 @@ a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #62D006;
-  transition: color 0.5s;
-}
-
-a:active, a:hover, a:focus {
-  color: #04A05D;
 }
 
 header {
