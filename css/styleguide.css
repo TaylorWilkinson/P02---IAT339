@@ -79,13 +79,13 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #62D006;
+  color: #04A05D;
   transition: color 0.5s;
   display: block;
 }
 
 nav a:active, a:hover, a:focus {
-  color: #04A05D;
+  color: #62D006;
 }
 
 /*--elements---*/
