@@ -72,7 +72,7 @@ section code {
     max-width:100%
 }
 
-/* index.html Nav Buttons*/
+/* Nav Buttons*/
 nav {
   margin: 1rem 0rem;
 }
@@ -147,9 +147,6 @@ input[type=text] {
 }
 
 .submit-button:active, .submit-button:hover, .submit-button:focus {
-  /* background-color: #ffffff;
-  color:#62D006;
-  border-color:#62D006; */
   background-color: #62D006;
   border-color: #62D006;
   color:#fff;
