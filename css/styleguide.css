@@ -72,17 +72,15 @@ nav {
   margin: 1rem 0rem;
 }
 
-nav a{
-  display: block;
-}
-
-.nav-item a {
+nav a {
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #04A05D;
   transition: color 0.5s;
+  display: block;
 }
 
-.nav-item a:active, a:hover, a:focus {
+nav a:active, nav a:hover, nav a:focus {
   color: #62D006;
 }
 
@@ -90,14 +88,14 @@ nav a{
 
 /* In-Text Links*/
 
-.in-text-link a {
+a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #62D006;
   transition: color 0.5s;
 }
 
-.in-text-link a:active, a:hover, a:focus {
+a:active, a:hover, a:focus {
   color: #04A05D;
 }
 
