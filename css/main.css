@@ -32,23 +32,38 @@ a {
 }
 
 /* NAVIGATION BAR */
+
+/*
 .nav {
-  /* position: fixed; */
   top: 0;
   right: 0;
   left: 0;
   z-index: 10;
   margin: 1.5rem;
   margin-top: 0.5rem;
-
 }
+*/
 
 .nav-logo {
-  display: inline-block;
   float: left;
+  margin: 0.5rem 2.5rem;
   font-family: 'Paytone One', sans-serif;
   font-size: 1.75rem;
   color: #62D006;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0.5rem 2.5rem;
 }
 
 .nav-item {
