@@ -47,6 +47,7 @@ a {
 .nav-logo {
   float: left;
   margin: 0.5rem 2.5rem;
+  margin-left: 0;
   font-family: 'Paytone One', sans-serif;
   font-size: 1.75rem;
   color: #62D006;
@@ -78,5 +79,11 @@ nav li {
 }
 
 .content {
-  display: inline;
+  max-width: 100%;
+  margin: 1rem 5rem;
+}
+
+.block {
+  display: inline-block;
+  width: 33%
 }
