@@ -31,6 +31,24 @@
   /*width: 33%*/
 }
 
+/*NAV BAR*/
+.container{
+
+  display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+/*how to place the child elements*/
+	-webkit-justify-content: flex-start;
+	-ms-justify-content: flex-start;
+	justify-content: flex-start;
+
+}
+
 /*media queries */
 @media(min-width:25em) and (max-width:42.5em){
 

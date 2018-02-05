@@ -45,7 +45,8 @@ a {
 */
 
 .nav-logo {
-  float: left;
+  /*float: left;*/
+  max-width:100%;
   margin: 0.5rem 2.5rem;
   margin-left: 0;
   font-family: 'Paytone One', sans-serif;
@@ -53,8 +54,13 @@ a {
   color: #62D006;
 }
 
-nav {
-  float: right;
+.nav-menu-item{
+  display:inline-block;
+  text-align: right;
+}
+
+.nav-logo-item{
+display:inline-block;
 }
 
 nav ul {
