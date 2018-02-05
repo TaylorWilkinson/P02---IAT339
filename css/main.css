@@ -78,12 +78,16 @@ nav li {
 .banner {
 }
 
-.content {
+/*MAIN PAGE*/
+/*IN MOBLIE VERSION*/
+.box-content {
   max-width: 100%;
-  margin: 1rem 5rem;
+  /*margin: 1rem 2rem;*/
+  
 }
 
 .block {
   display: inline-block;
-  width: 33%
+  max-width:100%;
+  /*width: 33%*/
 }
