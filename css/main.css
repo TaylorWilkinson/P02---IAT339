@@ -87,9 +87,10 @@ nav li {
 .block {
   display: inline-block;
   max-width:100%;
+  margin:0 1rem;
   /*width: 33%*/
 }
 
-.main-blocks{
+.main-blocks-content{
   max-width:100%;
 }
