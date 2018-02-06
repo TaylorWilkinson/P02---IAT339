@@ -21,9 +21,10 @@ h3 {
 p, ol, ul {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  max-width: 60rem;
+  /* max-width: 60rem; */
   font-size: 0.90rem;
 }
+
 
 a {
   font-family: 'Open Sans', sans-serif;
@@ -35,16 +36,16 @@ a {
 
 /*
 .nav {
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 10;
-  margin: 1.5rem;
-  margin-top: 0.5rem;
+top: 0;
+right: 0;
+left: 0;
+z-index: 10;
+margin: 1.5rem;
+margin-top: 0.5rem;
 }
 */
 
-.nav-logo {
+.nav-logo-item {
   /*float: left;*/
   max-width:100%;
   margin: 0.5rem 2.5rem;
@@ -54,22 +55,31 @@ a {
   color: #62D006;
 }
 
-.nav-menu-item{
+.nav-item{
   display:inline-block;
   text-align: right;
 }
 
-.nav-logo-item{
-display:inline-block;
+.nav-logo{
+  margin-right:auto;
 }
 
+.nav-logo-item{
+  padding:1rem;
+}
+
+nav {
+  width: 100%;
+}
 nav ul {
-  margin: 0;
   list-style: none;
 }
 
+.nav-1st-item{
+  margin-left:auto;
+}
+
 nav li {
-  display: inline-block;
   margin: 0.5rem 2.5rem;
 }
 
