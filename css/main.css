@@ -21,9 +21,10 @@ h3 {
 p, ol, ul {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  max-width: 60rem;
+  /* max-width: 60rem; */
   font-size: 0.90rem;
 }
+
 
 a {
   font-family: 'Open Sans', sans-serif;
@@ -35,36 +36,39 @@ a {
 
 /*
 .nav {
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 10;
-  margin: 1.5rem;
-  margin-top: 0.5rem;
+top: 0;
+right: 0;
+left: 0;
+z-index: 10;
+margin: 1.5rem;
+margin-top: 0.5rem;
 }
 */
 
-.nav-logo {
-  float: left;
+nav {
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin: 0.5rem 2.5rem;
+}
+
+.nav-logo{
+  margin-right:auto;
+}
+
+.nav-logo-item{
+  /*float: left;*/
+  max-width:100%;
   margin: 0.5rem 2.5rem;
   margin-left: 0;
   font-family: 'Paytone One', sans-serif;
   font-size: 1.75rem;
   color: #62D006;
-}
-
-nav {
-  float: right;
-}
-
-nav ul {
-  margin: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0.5rem 2.5rem;
+  padding:1rem;
 }
 
 .nav-item {
@@ -72,18 +76,34 @@ nav li {
   padding-top: 0.75rem;
   color: #62D006;
   font-size: 1rem;
+  text-align: right;
 
 }
+
+.nav-1st-item{
+  margin-left:auto;
+}
+
+
+
+
 
 .banner {
 }
 
-.content {
+/*MAIN PAGE*/
+.box-content {
   max-width: 100%;
-  margin: 1rem 5rem;
+  /*margin: 1rem 2rem;*/
 }
 
 .block {
   display: inline-block;
-  width: 33%
+  max-width:100%;
+  margin:0 1rem;
+  /*width: 33%*/
+}
+
+.main-blocks-content{
+  max-width:100%;
 }
