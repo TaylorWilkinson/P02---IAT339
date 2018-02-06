@@ -68,7 +68,6 @@ nav li {
   font-family: 'Paytone One', sans-serif;
   font-size: 1.75rem;
   color: #62D006;
-  padding:1rem;
 }
 
 .nav-item {
@@ -89,6 +88,7 @@ nav li {
 
 
 .banner {
+  max-width:100%;
 }
 
 /*MAIN PAGE*/
