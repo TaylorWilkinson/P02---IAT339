@@ -27,6 +27,7 @@
 .product {
   display: inline-block;
   flex-basis: 100%;
+  text-align:center;
 }
 
 
@@ -133,11 +134,31 @@
 }
 
 /*PRODUCTS*/
-@media(min-width:43.75em){
+@media(min-width:43.75em) and (max-width: 56.25em){
 
   .product {
     display: inline-block;
     margin: 0.5rem 2rem;
+    text-align:center;
+  }
+
+}
+
+@media(min-width:56.25em){
+
+  .product {
+    margin: 0.5rem 6rem;
+    text-align:right;
+  }
+
+  .product-text{
+    max-width:70%;
+    text-align:left;
+    margin-left: 3rem;
+  }
+
+  .normal-button{
+    margin-right:3rem;
   }
 
 }
