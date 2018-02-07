@@ -133,3 +133,11 @@
 }
 
 /*PRODUCTS*/
+@media(min-width:43.75em){
+
+  .product {
+    display: inline-block;
+    margin: 0.5rem 2rem;
+  }
+
+}

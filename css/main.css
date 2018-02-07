@@ -11,6 +11,7 @@ h2 {
   margin: 0.75rem 0rem;
   font-size: 1.50rem;
   color: #62D006;
+  max-width:100%;
 }
 
 h3 {
@@ -115,4 +116,26 @@ nav li {
   margin-top:0.5rem;
   border-radius: 1em;
   text-align: center;
+  max-width:100%;
+}
+
+/*apply buttons*/
+.normal-button {
+  display: inline-block;
+  padding: 0.5rem 0.5rem;
+  color: #FFF;
+  background-color: #04A05D;
+  border-radius: 0.5em;
+  border-style:solid;
+  border-width:thin;
+  border-color:#ffffff;
+  text-decoration: none;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.normal-button:hover, .normal-button:focus {
+  background-color: #ffffff;
+  color:#62D006;
+  border-color:#62D006;
 }
