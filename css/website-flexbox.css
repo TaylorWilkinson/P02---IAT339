@@ -6,7 +6,7 @@
 
 /*PAGE CONTENT*/
 /*Code for mobile version 1st*/
-.content {
+.product-content {
   flex-direction: column;
 
   display: -webkit-flex;
@@ -79,6 +79,7 @@
 }
 
 /*media queries */
+/*MAIN PAGE*/
 @media(min-width:25em) and (max-width:42.5em){
 
   .box-content{
@@ -130,3 +131,5 @@
   }
 
 }
+
+/*PRODUCTS*/
