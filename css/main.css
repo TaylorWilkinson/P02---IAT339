@@ -26,8 +26,11 @@ p, ol, ul {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   padding-left:0;
-  /* max-width: 60rem; */
   font-size: 0.90rem;
+}
+
+p {
+  max-width: 75rem;
 }
 
 /* In-Text Links*/
@@ -193,18 +196,4 @@ input[type=text] {
   background-color: #62D006;
   border-color: #62D006;
   color:#fff;
-}
-
-/* LOG IN PAGE */
-.log-in {
-  margin: 0rem 2rem;
-}
-
-/* APPLY NOW PAGE */
-.apply-now {
-  margin: 0rem 2rem;
-}
-
-.section {
-  margin: 2.5rem 5rem;
 }
