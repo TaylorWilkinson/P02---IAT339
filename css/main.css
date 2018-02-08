@@ -1,6 +1,7 @@
 h1{
   font-family: 'Paytone One', sans-serif;
   color: #62D006;
+  font-weight: 300;
 }
 
 h2, h3 {
@@ -11,6 +12,7 @@ h2 {
   margin: 0.75rem 0rem;
   font-size: 1.50rem;
   color: #62D006;
+  max-width:100%;
 }
 
 h3 {
@@ -34,17 +36,6 @@ a {
 }
 
 /* NAVIGATION BAR */
-
-/*
-.nav {
-top: 0;
-right: 0;
-left: 0;
-z-index: 10;
-margin: 1.5rem;
-margin-top: 0.5rem;
-}
-*/
 
 nav {
   width: 100%;
@@ -105,4 +96,36 @@ nav li {
 
 .main-blocks-content{
   max-width:100%;
+}
+
+/*PRODUCT*/
+.product{
+  border: 2px solid #DBDBDB;
+  background: #FFFFFF;
+  padding: 1rem;
+  margin-top:0.5rem;
+  border-radius: 1em;
+  max-width:100%;
+}
+
+
+/*apply buttons*/
+.normal-button {
+  display: inline-block;
+  color: #FFF;
+  background-color: #04A05D;
+  border-radius: 5px;
+  padding: 0.50em;
+  border-style:solid;
+  border-width:thin;
+  border-color: #04A05D;
+  text-decoration: none;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.normal-button:hover, .normal-button:focus {
+  background-color: #62D006;
+  border-color: #62D006;
+  color:#fff;
 }
