@@ -15,9 +15,10 @@ body {
 h1{
   font-family: 'Paytone One', sans-serif;
   color: #62D006;
+  font-weight: 300;
 }
 
-h2, h3, h4, p{
+h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -25,15 +26,20 @@ h2 {
   margin: 0.75rem 0rem;
   font-size: 1.50rem;
   color: #62D006;
+  max-width:100%;
 }
 
 h3 {
+  color: #62D006;
   margin: 0.75rem 0rem;
   font-size: 1.25rem;
 }
 
+/* h4 tag only used in styleguide */
+
 h4 {
   margin: 0.75rem 0rem;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1rem;
 }
@@ -41,9 +47,14 @@ h4 {
 p, ol, ul {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  max-width: 60rem;
+  padding-left:0;
   font-size: 0.90rem;
 }
+
+p {
+  max-width: 50rem;
+}
+
 
 a {
   font-family: 'Open Sans', sans-serif;
@@ -67,12 +78,12 @@ section code {
     max-width:100%
 }
 
-/* Nav Buttons*/
-nav {
+/* SYTLE GUIDE NAVIGATION */
+.main-nav {
   margin: 1rem 0rem;
 }
 
-nav a {
+.main-nav a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #04A05D;
@@ -80,9 +91,14 @@ nav a {
   display: block;
 }
 
-nav a:active, nav a:hover, nav a:focus {
+.main-nav a:active, .main-nav a:hover, .main-nav a:focus {
   color: #62D006;
 }
+
+.main-nav .nav-item {
+  text-align: left;
+}
+
 
 /*--elements---*/
 
@@ -100,7 +116,47 @@ a:active, a:hover, a:focus {
 }
 
 /*NAV BUTTON*/
-.nav-button {
+nav {
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin: 0.5rem 1.2rem;
+}
+
+.nav-logo{
+  margin-right:auto;
+}
+
+.nav-logo-item{
+  /*float: left;*/
+  max-width:100%;
+  margin: 0.5rem 2.5rem;
+  margin-left: 0;
+  text-align:center;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 1.75rem;
+  color: #62D006;
+}
+
+.nav-item {
+  display: inline-block;
+  padding-top: 0.75rem;
+  color: #62D006;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.nav-1st-item{
+  margin-left:auto;
+}
+
+
+/*OLD CODE*/
+/* .nav-button {
   display: inline-block;
   padding: 1rem 1rem;
   color: #FFF;
@@ -118,7 +174,7 @@ a:active, a:hover, a:focus {
   background-color: #ffffff;
   color:#62D006;
   border-color:#62D006;
-}
+} */
 
 /* Forms & Input */
 form {
@@ -225,7 +281,48 @@ section p {
 }
 
 /* Product Listing */
-.product-item {
+
+/*PRODUCT*/
+.product{
+  border: 2px solid #DBDBDB;
+  padding: 1rem;
+  margin-top:0.5rem;
+  border-radius: 1em;
+  max-width:100%;
+}
+
+.product-small-item{
+  border: 2px solid #DBDBDB;
+  background: #FFFFFF;
+  padding: 1rem;
+  margin-top:0.5rem;
+  border-radius: 1em;
+  max-width:100%;
+}
+
+/*apply buttons*/
+.normal-button {
+  display: inline-block;
+  color: #FFF;
+  background-color: #04A05D;
+  border-radius: 5px;
+  padding: 0.50em;
+  border-style:solid;
+  border-width:thin;
+  border-color: #04A05D;
+  text-decoration: none;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.normal-button:hover, .normal-button:focus {
+  background-color: #62D006;
+  border-color: #62D006;
+  color:#fff;
+}
+
+/*Old Code*/
+/* .product-item {
   border: 2px solid #DBDBDB;
   background: #FFFFFF;
   padding: 1rem;
@@ -235,7 +332,7 @@ section p {
 
 .placeholder{
   max-width:100%;
-}
+} */
 
 /* Grid Structure */
 .col1 {
