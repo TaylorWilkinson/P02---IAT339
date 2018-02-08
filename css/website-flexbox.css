@@ -182,6 +182,10 @@ h1, h2{
 
   }
 
+  ol, ul{
+  text-align:center;
+  }
+
 }
 
 /*PRODUCTS*/
