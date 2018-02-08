@@ -16,6 +16,7 @@ h2 {
 }
 
 h3 {
+  color: #62D006;
   margin: 0.75rem 0rem;
   font-size: 1.25rem;
 }
@@ -29,10 +30,17 @@ p, ol, ul {
 }
 
 
+/* In-Text Links*/
+
 a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #62D006;
+  transition: color 0.5s;
+}
+
+a:active, a:hover, a:focus {
+  color: #04A05D;
 }
 
 /* NAVIGATION BAR */
@@ -101,12 +109,21 @@ nav li {
 /*PRODUCT*/
 .product{
   border: 2px solid #DBDBDB;
+  padding: 1rem;
+  margin-top:0.5rem;
+  border-radius: 1em;
+  max-width:100%;
+}
+
+.product-small-item{
+  border: 2px solid #DBDBDB;
   background: #FFFFFF;
   padding: 1rem;
   margin-top:0.5rem;
   border-radius: 1em;
   max-width:100%;
 }
+
 
 
 /*apply buttons*/

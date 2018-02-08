@@ -7,10 +7,10 @@
 /*PAGE CONTENT*/
 /*Code for mobile version 1st*/
 
-h1{
+h1, h2{
   text-align:center;
 }
-.product-content {
+.product-content{
   flex-direction: column;
 
   display: -webkit-flex;
@@ -29,16 +29,56 @@ h1{
   margin-bottom: 2rem;
 }
 
+.product-small-item-container {
+
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: flex-start;
+
+  margin: 0rem 0.5rem;
+  margin-bottom: 2rem;
+}
+
 .product {
+  position:relative;
   display: inline-block;
   flex-basis: 100%;
   text-align:center;
+  overflow:hidden;
+}
+
+.product:before {
+  position:absolute;
+  display: block;
+  content: ' ';
+  opacity:0.3;
+  z-index:-1;
+  background-image: url("../image/product-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
 }
 
 .product-description{
   max-width:85%;
   text-align: left;
-  margin: 1.5rem 1.5rem;
+  margin: 0.8rem 1.5rem;
+}
+
+.product-small-item{
+  display: inline-block;
+  flex-basis:100%;
 }
 
 
@@ -160,6 +200,7 @@ h1{
     margin-bottom:1.5rem;
   }
 
+
 }
 
 @media(min-width:56.25em){
@@ -185,6 +226,41 @@ h1{
 
   .normal-button{
     margin-right:3rem;
+  }
+
+}
+
+@media(min-width:34.375em) and (max-width:56.25em){
+
+  .product-small-item{
+    flex-basis:45%;
+    margin: 0 0.5rem;
+  }
+
+  .product-in-text{
+    margin-left:0;
+  }
+
+}
+
+@media(min-width:56.25em){
+
+  .product-small-item-container {
+
+    -webkit-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around;
+
+    margin:0 5rem;
+  }
+
+  .product-small-item{
+    flex-basis:30%;
+    margin: 0 0.3rem;
+  }
+
+  .product-in-text{
+    margin-left:0;
   }
 
 }
