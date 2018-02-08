@@ -6,6 +6,10 @@
 
 /*PAGE CONTENT*/
 /*Code for mobile version 1st*/
+
+h1{
+  text-align:center;
+}
 .product-content {
   flex-direction: column;
 
@@ -28,6 +32,12 @@
   display: inline-block;
   flex-basis: 100%;
   text-align:center;
+}
+
+.product-description{
+  max-width:85%;
+  text-align: left;
+  margin: 1.5rem 1.5rem;
 }
 
 
@@ -142,6 +152,13 @@
     text-align:center;
   }
 
+  .product-description{
+    max-width:85%;
+    margin: 0 6rem;
+    text-align:left;
+    margin-bottom:1.5rem;
+  }
+
 }
 
 @media(min-width:56.25em){
@@ -156,6 +173,14 @@
     text-align:left;
     margin-left: 3rem;
   }
+
+  .product-description{
+    max-width:85%;
+    margin: 0 6rem;
+    text-align:left;
+    margin-bottom:2rem;
+  }
+
 
   .normal-button{
     margin-right:3rem;
