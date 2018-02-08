@@ -107,7 +107,15 @@ nav li {
 }
 
 /*PRODUCT*/
-.product, .product-small-item{
+.product{
+  border: 2px solid #DBDBDB;
+  padding: 1rem;
+  margin-top:0.5rem;
+  border-radius: 1em;
+  max-width:100%;
+}
+
+.product-small-item{
   border: 2px solid #DBDBDB;
   background: #FFFFFF;
   padding: 1rem;
@@ -115,6 +123,7 @@ nav li {
   border-radius: 1em;
   max-width:100%;
 }
+
 
 
 /*apply buttons*/
