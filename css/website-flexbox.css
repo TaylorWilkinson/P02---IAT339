@@ -7,10 +7,10 @@
 /*PAGE CONTENT*/
 /*Code for mobile version 1st*/
 
-h1{
+h1, h2{
   text-align:center;
 }
-.product-content {
+.product-content, .product-small-item-container {
   flex-direction: column;
 
   display: -webkit-flex;
@@ -40,6 +40,11 @@ h1{
   text-align: left;
   margin: 1.5rem 1.5rem;
 }
+
+.product-small-item{
+  flex-basis:100%;
+}
+
 
 
 /*IN MOBLIE VERSION*/

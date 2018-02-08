@@ -16,6 +16,7 @@ h2 {
 }
 
 h3 {
+  color: #62D006;
   margin: 0.75rem 0rem;
   font-size: 1.25rem;
 }
@@ -29,10 +30,17 @@ p, ol, ul {
 }
 
 
+/* In-Text Links*/
+
 a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #62D006;
+  transition: color 0.5s;
+}
+
+a:active, a:hover, a:focus {
+  color: #04A05D;
 }
 
 /* NAVIGATION BAR */
@@ -99,7 +107,7 @@ nav li {
 }
 
 /*PRODUCT*/
-.product{
+.product, .product-small-item{
   border: 2px solid #DBDBDB;
   background: #FFFFFF;
   padding: 1rem;
