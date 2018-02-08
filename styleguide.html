@@ -59,17 +59,21 @@
           <section class="element">
             <h3>Navigation Button</h3>
             <h4>CSS selector</h4>
-            <p>.nav-button</p>
+            <p>.nav-item</p>
             <h4>Sample code:</h4>
             <pre>
-              <code>&lt;nav class="nav-bar"&gt;
-                &lt;a href="#" class="nav-button"&gt;Nav Button&lt;/a&gt;
-                &lt;/nav&gt;
-              </code>
+              <code>&lt;nav&gt;
+&lt;ul class="container"&gt;
+&lt;li&gt;&lt;a href="#" class="nav-item"&gt;NAV BUTTON&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+</code>
             </pre>
             <h4>Rendered element:</h4>
-            <nav class="nav-bar">
-              <a href="#" class="nav-button">NAV BUTTON</a>
+            <nav>
+              <ul class="#">
+                <li><a href="#" class="nav-item">NAV BUTTON</a></li>
+              </ul>
             </nav>
           </section>
 
@@ -202,22 +206,27 @@
           <section class="element">
             <h3>Main Navigation</h3>
             <h4>CSS selector:</h4>
-            <p></p>
+            <p>nav element tag</p>
             <h4>Sample code:</h4>
-            <pre>
-              <code>
-                &lt;nav class="nav-bar nav-item-structure"&gt;
-                &lt;a href="#" class="nav-button nav-item-structure" id="nav-bar"&gt;PRODUCTS&lt;/a&gt;
-                &lt;a href="#" class="nav-button nav-item-structure" id="nav-bar"&gt;SERVICES&lt;/a&gt;
-                &lt;a href="#" class="nav-button nav-item-structure" id="nav-bar"&gt;"APPLY&lt;/a&gt;
-                &lt;/nav&gt;
-              </code>
+            <pre><code>&lt;nav&gt;
+&lt;ul class="container"&gt;
+&lt;li  class="nav-logo"&gt;&lt;a href="index.html" class="nav-logo-item"&gt;sprout credit union&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="products.html" class="nav-item"&gt;PRODUCTS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="login.html" class="nav-item"&gt;LOGIN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="apply.html" class="nav-item"&gt;APPLY&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;</code>
             </pre>
             <h4>Rendered element:</h4>
-            <nav class="nav-bar main-nav-container">
-              <a href="#" class="nav-button nav-item-structure">PRODUCTS</a>
-              <a href="#" class="nav-button nav-item-structure">SERVICES</a>
-              <a href="#" class="nav-button nav-item-structure">APPLY</a>
+            <nav>
+              <ul class="container">
+                <!-- LOGO ON R -->
+                <li class="nav-logo"><a href="#" class="nav-logo-item">sprout credit union</a> </li>
+                <!-- NAV ITEMS ON L -->
+                <li><a href="#" class="nav-item">PRODUCTS</a></li>
+                <li><a href="#" class="nav-item">LOGIN</a></li>
+                <li><a href="#" class="nav-item">APPLY</a></li>
+              </ul>
             </nav>
           </section>
         </section>
@@ -226,32 +235,22 @@
         <section class="element">
           <h3>Product Listing</h3>
           <h4>CSS selector:</h4>
-          <p>.product-listing</p>
+          <p>.product</p>
           <h4>Sample code:</h4>
           <pre>
-            <code>
-              &lt;div class="product-listing product-container"&gt;
-              &lt;div class="product-item"&gt;
-              &lt;img src="img/placeholder-house.jpeg" alt="Placeholder Image" class="placeholder"&gt;
-              &lt;h2&gt;Happy Mortgage&lt;/h2&gt;
-              &lt;h3&gt;3.30% - 5 year closed&lt;/h3&gt;
-              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius quam neque, ut interdum mi volutpat eget.&lt;/p&gt;
-              &lt;input class="submit-button" type="submit" value="APPLY"&gt;
-              &lt;/div&gt;
-              &lt;/div&gt;
-            </code>
+            <code>&lt;div class="product"&gt;
+&lt;h2 class="product-text"&gt;SPROUT MORTGAGE&lt;/h2&gt;
+&lt;p class="product-text"&gt;Lorem ipsum dolor sit amet, quis nibh nec auctor, dictumst in at non quisque elit, morbi id sit erat, potenti wisi dictum amet, lectus id.&lt;/p&gt;
+&lt;a href="apply.html" class="normal-button"&gt;Apply Now&lt;/a&gt;
+&lt;/div&gt;</code>
           </pre>
           <h4>Rendered element:</h4>
-          <div class="product-listing product-container">
-            <div class="product-item">
-              <img src="image/placeholder-house.jpeg" alt="Placeholder Image" class="placeholder">
-              <h2>Happy Mortgage</h2>
-              <h3>3.30% - 5 year closed</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                varius quam neque, ut interdum mi volutpat eget.</p>
-                <input class="submit-button" type="submit" value="APPLY">
-              </div>
-            </div>
+
+          <div class="product">
+            <h2 class="product-text">SPROUT MORTGAGE</h2>
+            <p class="product-text">Lorem ipsum dolor sit amet, quis nibh nec auctor, dictumst in at non quisque elit, morbi id sit erat, potenti wisi dictum amet, lectus id.</p>
+            <a href="#" class="normal-button">Apply Now</a>
+          </div>
           </section>
 
           <!-- website grid structure -->
