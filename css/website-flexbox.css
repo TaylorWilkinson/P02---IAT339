@@ -61,6 +61,7 @@ h1, h2{
 }
 
 .product-small-item{
+  display: inline-block;
   flex-basis:100%;
 }
 
@@ -209,6 +210,14 @@ h1, h2{
 
   .normal-button{
     margin-right:3rem;
+  }
+
+}
+
+@media(min-width:34.375em){
+
+  .product-small-item{
+    flex-basis:40%;
   }
 
 }
