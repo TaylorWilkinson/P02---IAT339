@@ -111,6 +111,7 @@ nav li {
   max-width:100%;
 }
 
+/* Buttons for index.html box-content links */
 .box-link {
   display: inline-block;
   color: #62D006;
@@ -126,6 +127,27 @@ nav li {
   transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
 }
 .box-link:hover, .box-link:focus {
+  background-color: #62D006;
+  border-color: #62D006;
+  color:#fff;
+}
+
+/* Secondary button */
+.secondary-button {
+  display: inline-block;
+  color: #62D006;
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 0.50em;
+  border-style:solid;
+  border-width:thin;
+  border-color: #FFF
+  text-decoration: none;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.secondary-button:hover, .secondary-button:focus {
   background-color: #62D006;
   border-color: #62D006;
   color:#fff;
@@ -210,4 +232,9 @@ input[type=text] {
   background-color: #62D006;
   border-color: #62D006;
   color:#fff;
+}
+
+
+.apply-today {
+  margin-top: 2.5rem;
 }
