@@ -1,23 +1,23 @@
-h1{
-  font-family: 'Paytone One', sans-serif;
+h1 {
+  font-family: 'Dosis', sans-serif;
   color: #62D006;
-  font-weight: 300;
+  font-weight: 600;
   text-align: center;
 }
 
-h2, h3 {
-  font-family: 'Open Sans', sans-serif;
-}
-
 h2 {
+  font-family: 'Dosis', sans-serif;
+  color: #62D006;
+  font-weight: 500;
   margin: 0.75rem 0rem;
   font-size: 1.50rem;
-  color: #62D006;
   max-width:100%;
 }
 
 h3 {
-  color: #62D006;
+  font-family: 'Dosis', sans-serif;
+  color: #2D2D2D;
+  font-weight: 400;
   margin: 0.75rem 0rem;
   font-size: 1.25rem;
 }
@@ -63,22 +63,22 @@ nav li {
 }
 
 .nav-logo-item{
-  /*float: left;*/
-  max-width:100%;
+  max-width: 100%;
   margin: 0.5rem 2.5rem;
   margin-left: 0;
-  text-align:center;
-  font-family: 'Paytone One', sans-serif;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
   font-size: 1.75rem;
   color: #62D006;
 }
 
 .nav-item {
   display: inline-block;
-  padding-top: 0.75rem;
-  color: #62D006;
   font-size: 1rem;
   text-align: right;
+  padding-top: 0.50rem;
+  color: #62D006;
 }
 
 .nav-1st-item{
