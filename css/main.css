@@ -2,6 +2,7 @@ h1{
   font-family: 'Paytone One', sans-serif;
   color: #62D006;
   font-weight: 300;
+  text-align: center;
 }
 
 h2, h3 {
@@ -28,8 +29,8 @@ p, ol, ul {
   font-size: 0.90rem;
 }
 
-ol, ul {
-margin: 0.5rem 1.5rem;
+p {
+  max-width: 75rem;
 }
 
 
@@ -80,14 +81,13 @@ nav li {
   color: #62D006;
   font-size: 1rem;
   text-align: right;
-
 }
 
 .nav-1st-item{
   margin-left:auto;
 }
 
-
+/* Banner Image */
 .banner img{
   max-width:100%
 }
@@ -96,6 +96,10 @@ nav li {
 .box-content {
   max-width: 100%;
   /*margin: 1rem 2rem;*/
+}
+
+.box-content h2 {
+  text-align: left;
 }
 
 .block {
@@ -107,6 +111,11 @@ nav li {
 
 .main-blocks-content{
   max-width:100%;
+}
+
+.box-link {
+  display: block;
+  margin: 0.5rem 0rem;
 }
 
 /*PRODUCT*/
@@ -126,8 +135,6 @@ nav li {
   border-radius: 1em;
   max-width:100%;
 }
-
-
 
 /*apply buttons*/
 .normal-button {
@@ -150,5 +157,44 @@ nav li {
   color:#fff;
 }
 
-.apply-button{
+/* Forms & Input */
+form {
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  margin: 1rem 0rem;
+}
+
+label {
+  padding-right: 0.5rem;
+}
+
+input[type=text] {
+  font-family: 'Open Sans', sans-serif;
+  width: 30%;
+  margin: 0.5rem 0;
+  padding: 7px 7px;
+  border: 1px solid #DBDBDB;
+  border-radius: 5px;
+}
+
+/* SUBMIT BUTTON */
+.submit-button {
+  display: inline-block;
+  color: #FFF;
+  background-color: #04A05D;
+  border-radius: 5px;
+  margin: 1rem 0;
+  padding: 0.50em;
+  border-style:solid;
+  border-width:thin;
+  border-color: #04A05D;
+  text-decoration: none;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.submit-button:active, .submit-button:hover, .submit-button:focus {
+  background-color: #62D006;
+  border-color: #62D006;
+  color:#fff;
 }
