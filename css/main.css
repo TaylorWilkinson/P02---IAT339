@@ -45,6 +45,13 @@ a:active, a:hover, a:focus {
   color: #04A05D;
 }
 
+footer {
+  margin: 4rem 0rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+
 /* NAVIGATION BAR */
 
 nav {
