@@ -30,7 +30,7 @@ p, ol, ul {
 }
 
 ol, ul {
-margin: 0.5rem 1.5rem;
+  margin: 0.5rem 1.5rem;
 }
 
 
@@ -96,7 +96,7 @@ nav li {
 
 
 .banner img{
-  max-width:100%
+  max-width:100%;
 }
 
 /*MAIN PAGE*/
@@ -104,6 +104,11 @@ nav li {
   max-width: 100%;
   /*margin: 1rem 2rem;*/
 }
+
+.box-content h2 {
+  text-align: left;
+}
+
 
 .block {
   display: inline-block;
