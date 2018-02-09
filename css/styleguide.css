@@ -12,13 +12,30 @@ body {
   margin: 1rem 0rem;
 }
 
-h1{
-  font-family: 'Paytone One', sans-serif;
+h1 {
+  font-family: 'Dosis', sans-serif;
   color: #62D006;
-  font-weight: 300;
+  font-weight: 600;
 }
 
-h2, h3 {
+h2 {
+  font-family: 'Dosis', sans-serif;
+  color: #62D006;
+  font-weight: 500;
+  margin: 0.75rem 0rem;
+  font-size: 1.50rem;
+  max-width:100%;
+}
+
+h3 {
+  font-family: 'Dosis', sans-serif;
+  color: #2D2D2D;
+  font-weight: 400;
+  margin: 0.75rem 0rem;
+  font-size: 1.25rem;
+}
+
+/* h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -33,7 +50,7 @@ h3 {
   color: #62D006;
   margin: 0.75rem 0rem;
   font-size: 1.25rem;
-}
+} */
 
 /* h4 tag only used in styleguide */
 
@@ -47,12 +64,11 @@ h4 {
 p, ol, ul {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  padding-left:0;
   font-size: 0.90rem;
 }
 
 p {
-  max-width: 50rem;
+  max-width: 75rem;
 }
 
 
@@ -60,11 +76,17 @@ a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #62D006;
+  transition: color 0.5s;
+}
+
+a:active, a:hover, a:focus {
+  color: #04A05D;
 }
 
 header {
   margin-bottom: 2rem;
 }
+
 /* Style Guide Code */
 pre {
   display: block;
@@ -132,12 +154,12 @@ nav li {
 }
 
 .nav-logo-item{
-  /*float: left;*/
-  max-width:100%;
+  max-width: 100%;
   margin: 0.5rem 2.5rem;
   margin-left: 0;
-  text-align:center;
-  font-family: 'Paytone One', sans-serif;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
   font-size: 1.75rem;
   color: #62D006;
 }
