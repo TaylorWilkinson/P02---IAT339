@@ -25,12 +25,14 @@ h3 {
 p, ol, ul {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  padding-left:0;
   font-size: 0.90rem;
 }
 
-p {
-  max-width: 75rem;
+ol, ul {
+margin: 0.5rem 1.5rem;
 }
+
 
 /* In-Text Links*/
 
@@ -92,7 +94,7 @@ nav li {
   margin-left:auto;
 }
 
-/* Banner Image */
+
 .banner img{
   max-width:100%
 }
@@ -101,10 +103,6 @@ nav li {
 .box-content {
   max-width: 100%;
   /*margin: 1rem 2rem;*/
-}
-
-.box-content h2 {
-  text-align: left;
 }
 
 .block {
@@ -178,6 +176,8 @@ nav li {
   max-width:100%;
 }
 
+
+
 /*apply buttons*/
 .normal-button {
   display: inline-block;
@@ -199,11 +199,7 @@ nav li {
   color:#fff;
 }
 
-/* Forms & Input */
-form {
-  font-family: 'Open Sans', sans-serif;
-  display: block;
-  margin: 1rem 0rem;
+.apply-button{
 }
 
 label {
