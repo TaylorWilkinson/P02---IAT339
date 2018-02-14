@@ -195,6 +195,10 @@
 
   }
 
+  ol, ul{
+  /* text-align:center; */
+  }
+
 }
 
 /*PRODUCTS*/
