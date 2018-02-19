@@ -124,7 +124,8 @@
 /*NAV BAR*/
 .container{
 
-  display:block;
+  display: block;
+  margin: 0;
   /* display: -webkit-flex;
   display: -ms-flex;
   display: flex;
