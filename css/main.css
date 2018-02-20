@@ -113,8 +113,9 @@ nav li {
 }
 
 
-.nav-selected:hover, .nav-selected:focus{
-font-weight: 600;
+.nav-selected, .nav-selected:hover, .nav-selected:focus{
+  color: #2A2A2A;
+  font-weight: 600;
 }
 
 
@@ -209,21 +210,21 @@ font-weight: 600;
 /*apply buttons*/
 .normal-button {
   display: inline-block;
-  color: #FFF;
-  background-color: #04A05D;
+  color: #2CA675;
+  background-color: #fff;
   border-radius: 5px;
   padding: 0.50em;
   border-style:solid;
   border-width:thin;
-  border-color: #04A05D;
+  border-color: #2CA675;
   text-decoration: none;
   -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
   transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
 }
 
 .normal-button:hover, .normal-button:focus {
-  background-color: #62D006;
-  border-color: #62D006;
+  background-color: #2CA675;
+  border-color: #2CA675;
   color:#fff;
 }
 
@@ -242,7 +243,27 @@ font-weight: 600;
   transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
 }
 
+.apply-para-button{
+  display: inline-block;
+  color: #FFF;
+  background-color: #71B9C1;
+  border-radius: 15px;
+  padding: 0.50em 1rem;
+  border-style:solid;
+  border-width:thin;
+  border-color: #71B9C1;
+  text-decoration: none;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
 .apply-button:hover, .apply-button:focus {
+  background-color: #fff;
+  border-color: #71B9C1;
+  color:#71B9C1;
+}
+
+.apply-para-button:hover, .apply-para-button:focus {
   background-color: #fff;
   border-color: #71B9C1;
   color:#71B9C1;
@@ -276,22 +297,22 @@ input[type=radio] {
 .submit-button {
   display: inline-block;
   color: #FFF;
-  background-color: #04A05D;
+  background-color: #0F4F46;
   border-radius: 5px;
   margin: 1rem 0;
   padding: 0.50em;
   border-style:solid;
   border-width:thin;
-  border-color: #04A05D;
+  border-color: #0F4F46;
   text-decoration: none;
   -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
   transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
 }
 
 .submit-button:active, .submit-button:hover, .submit-button:focus {
-  background-color: #62D006;
-  border-color: #62D006;
-  color:#fff;
+  background-color: #fff;
+  border-color: #0F4F46;
+  color:#0F4F46;
 }
 
 
