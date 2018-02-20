@@ -166,6 +166,19 @@ nav li {
   color:#fff;
 }
 
+
+/**/
+.post {
+  display: inline-flex;
+  max-width: 100%;
+  margin: 2.5rem 5rem;
+}
+
+.post-text {
+  width: 60%;
+  margin: 0 2rem;
+}
+
 /* Secondary button */
 .secondary-button {
   display: inline-block;
