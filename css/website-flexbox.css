@@ -8,7 +8,8 @@
 /*Code for mobile version 1st*/
 
 .product-content h1 {
-  text-align: center;
+  display:inline-block;
+  text-align: left;
 }
 
 .product-text h2  {
@@ -70,7 +71,7 @@
   background-color:white;
 }
 
-.product:before {
+/* .product:before {
   position:absolute;
   display: block;
   content: ' ';
@@ -83,7 +84,7 @@
   top:0;
   width: 100%;
   height: 100%;
-}
+} */
 
 .product-description{
   max-width:85%;
@@ -202,13 +203,10 @@
 
   }
 
-  ol, ul{
-  /* text-align:center; */
-  }
-
 }
 
 /*PRODUCTS*/
+
 @media(min-width:43.75em) and (max-width: 56.25em){
 
   .product {
@@ -224,6 +222,9 @@
     margin-bottom:1.5rem;
   }
 
+  .product-content h1 {
+    margin-left:3rem;
+  }
 
 }
 
@@ -250,6 +251,10 @@
 
   .normal-button{
     margin-right:3rem;
+  }
+
+  .product-content h1 {
+    margin-left:6rem;
   }
 
 }
