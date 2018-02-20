@@ -58,6 +58,7 @@ a:active, a:hover, a:focus {
 
 footer {
   margin: 4rem 0rem;
+  padding:1rem;
   text-align: center;
   font-size: 0.75rem;
 }
@@ -213,7 +214,25 @@ nav li {
   color:#fff;
 }
 
-.apply-button{
+.apply-button {
+  margin:1rem;
+  display: inline-block;
+  color: #FFF;
+  background-color: #71B9C1;
+  border-radius: 15px;
+  padding: 0.50em 1rem;
+  border-style:solid;
+  border-width:thin;
+  border-color: #71B9C1;
+  text-decoration: none;
+  -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.apply-button:hover, .apply-button:focus {
+  background-color: #fff;
+  border-color: #71B9C1;
+  color:#71B9C1;
 }
 
 label {
