@@ -62,6 +62,12 @@
   flex-basis: 100%;
   text-align:center;
   overflow:hidden;
+  z-index:0;
+}
+
+.bg-color-container{
+  z-index:-2;
+  background-color:white;
 }
 
 .product:before {
