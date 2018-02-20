@@ -288,3 +288,30 @@
   }
 
 }
+
+
+.post {
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+}
+
+/* NEWS & UPDATES PAGE CONTENT */
+@media(min-width: 50em){
+
+  .post {
+    display: inline-flex;
+    margin: 2.5rem 0;
+    padding: 0 5rem;
+	}
+
+  .update-image {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .post-text {
+    text-align: left;
+    width: 60%
+  }
+}

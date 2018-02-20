@@ -1,9 +1,9 @@
 body{
-  background-color:#DDDCE2;
+  /* background-color:#DDDCE2; */
 }
 
 .container{
-  background-color:white;
+  background-color: white;
 }
 
 
@@ -57,11 +57,11 @@ a:active, a:hover, a:focus {
 }
 
 footer {
-  margin: 4rem 0rem;
-  padding:1rem;
+  padding: 1rem;
   text-align: center;
   font-size: 0.75rem;
 }
+
 
 
 /* NAVIGATION BAR */
@@ -118,9 +118,9 @@ nav li {
   font-weight: 600;
 }
 
-
+/* Banner Images */
 .banner img{
-  max-width:100%;
+  max-width: 100%;
 }
 
 /*MAIN PAGE*/
@@ -169,15 +169,25 @@ nav li {
 
 /**/
 .post {
-  display: inline-flex;
-  max-width: 100%;
-  margin: 2.5rem 5rem;
+  display: inline-block;
+  width: 100%;
+  margin: 2.5rem 0;
+}
+
+.update-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
 }
 
 .post-text {
-  width: 60%;
-  margin: 0 2rem;
+  text-align: center;
+  margin: 1rem 2.5rem;
+  padding: 0 2rem;
 }
+
+
 
 /* Secondary button */
 .secondary-button {
