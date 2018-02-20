@@ -113,8 +113,9 @@ nav li {
 }
 
 
-.nav-selected:hover, .nav-selected:focus{
-font-weight: 600;
+.nav-selected, .nav-selected:hover, .nav-selected:focus{
+  color: #2A2A2A;
+  font-weight: 600;
 }
 
 
