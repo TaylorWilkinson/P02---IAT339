@@ -170,7 +170,6 @@ nav li {
 /**/
 .post {
   display: inline-flex;
-  max-width: 100%;
   margin: 2.5rem 5rem;
 }
 
