@@ -154,7 +154,7 @@ nav li {
   padding: 0.50em;
   border-style:solid;
   border-width:thin;
-  border-color: #FFF
+  border-color: #FFF;
   text-decoration: none;
   -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
   transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
@@ -197,7 +197,7 @@ nav li {
   padding: 0.50em;
   border-style:solid;
   border-width:thin;
-  border-color: #FFF
+  border-color: #FFF;
   text-decoration: none;
   -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
   transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
@@ -251,7 +251,6 @@ nav li {
 }
 
 .apply-button {
-  margin:1rem;
   display: inline-block;
   color: #FFF;
   background-color: #71B9C1;
