@@ -8,7 +8,8 @@
 /*Code for mobile version 1st*/
 
 .product-content h1 {
-  text-align: center;
+  display:inline-block;
+  text-align: left;
 }
 
 .product-text h2  {
@@ -70,7 +71,7 @@
   background-color:white;
 }
 
-.product:before {
+/* .product:before {
   position:absolute;
   display: block;
   content: ' ';
@@ -83,7 +84,7 @@
   top:0;
   width: 100%;
   height: 100%;
-}
+} */
 
 .product-description{
   max-width:85%;
@@ -124,7 +125,7 @@
 }
 
 .content {
-  margin: 2.5rem 5rem;
+  margin: 2.5rem 2rem;
 }
 
 /*NAV BAR*/
@@ -159,7 +160,7 @@
     -ms-justify-content: flex-start;
     justify-content: flex-start;
 
-    margin:1rem 1.3rem;
+    margin:1rem 2rem;
   }
 
   .block {
@@ -175,7 +176,7 @@
     -ms-justify-content: space-around;
     justify-content: space-around;
 
-    margin:1rem 1.3rem;
+    margin:1rem 6rem;
   }
 
   .block {
@@ -202,13 +203,10 @@
 
   }
 
-  ol, ul{
-  /* text-align:center; */
-  }
-
 }
 
 /*PRODUCTS*/
+
 @media(min-width:43.75em) and (max-width: 56.25em){
 
   .product {
@@ -224,6 +222,9 @@
     margin-bottom:1.5rem;
   }
 
+  .product-content h1 {
+    margin-left:3rem;
+  }
 
 }
 
@@ -252,6 +253,10 @@
     margin-right:3rem;
   }
 
+  .product-content h1 {
+    margin-left:6rem;
+  }
+
 }
 
 @media(min-width:34.375em) and (max-width:56.25em){
@@ -264,6 +269,11 @@
   .product-in-text{
     margin-left:0;
   }
+
+  /*RESPONSIVE FORM*/
+    input[type= text] {
+      max-width: 70%;
+    }
 
 }
 
@@ -287,8 +297,14 @@
     margin-left:0;
   }
 
-}
+  /*RESPONSIVE FORM*/
+    input[type= text] {
+      width: 40%;
+    }
 
+
+
+}
 
 .post {
   -ms-flex-grow: 1;
@@ -314,4 +330,13 @@
     text-align: left;
     width: 60%
   }
+}
+
+/*APPLY/ LOGIN PAGE CONTAINER*/
+@media(min-width:28.125em){
+
+.content{
+  margin: 2.5rem 5rem;
+}
+
 }

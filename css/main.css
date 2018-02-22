@@ -11,7 +11,6 @@ h1 {
   font-family: 'Dosis', sans-serif;
   color: #17544C;
   font-weight: 600;
-  text-align: center;
 }
 
 h2 {
@@ -35,7 +34,7 @@ p, ol, ul {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   padding-left:0;
-  font-size: 0.90rem;
+  font-size: 1rem;
 }
 
 ol, ul {
@@ -155,7 +154,7 @@ nav li {
   padding: 0.50em;
   border-style:solid;
   border-width:thin;
-  border-color: #FFF
+  border-color: #FFF;
   text-decoration: none;
   -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
   transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
@@ -198,7 +197,7 @@ nav li {
   padding: 0.50em;
   border-style:solid;
   border-width:thin;
-  border-color: #FFF
+  border-color: #FFF;
   text-decoration: none;
   -webkit-transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
   transition: border-color 0.3s ease-out, color 0.3s ease-out, background-color 0.3s ease-out;
@@ -252,7 +251,6 @@ nav li {
 }
 
 .apply-button {
-  margin:1rem;
   display: inline-block;
   color: #FFF;
   background-color: #71B9C1;
@@ -303,11 +301,21 @@ form {
 
 input[type=text] {
   font-family: 'Open Sans', sans-serif;
-  width: 30%;
+  width: 100%;
   margin: 0.75rem 0;
   padding: 7px 7px;
   border: 1px solid #DBDBDB;
   border-radius: 5px;
+
+}
+
+@media(min-width:56.25em){
+
+  /*RESPONSIVE FORM*/
+    input[type= text] {
+      width: 40%;
+    }
+
 }
 
 input[type=radio] {
