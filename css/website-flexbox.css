@@ -71,21 +71,6 @@
   background-color:white;
 }
 
-/* .product:before {
-  position:absolute;
-  display: block;
-  content: ' ';
-  opacity:0.3;
-  z-index:-1;
-  background-image: url("../image/product-img.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  left:0;
-  top:0;
-  width: 100%;
-  height: 100%;
-} */
-
 .product-description{
   max-width:85%;
   text-align: left;
@@ -151,8 +136,24 @@
   flex-basis:100%;
 }
 
-/*media queries */
-/*MAIN PAGE*/
+/* NEWS & UPDATES PAGE CONTENT */
+.post {
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+}
+
+/* TESTIMONIALS ON ABOUT PAGE */
+.testimonial {
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+}
+
+
+
+
+
+/* media queries */
+/* MAIN PAGE */
 @media(min-width:25em) and (max-width:42.5em){
 
   .box-content{
@@ -301,18 +302,24 @@
     input[type= text] {
       width: 40%;
     }
-
-
-
 }
 
-.post {
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-}
-
-/* NEWS & UPDATES PAGE CONTENT */
+/* NEWS & UPDATES RESPONSIVE QUERIES */
 @media(min-width: 50em){
+
+  .update-image {
+    display: block;
+    max-width: 50%;
+    height: 50%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .update-content h1 {
+    display: inline-block;
+    text-align: left;
+    margin: 2.5rem 5rem 0 5rem;
+  }
 
   .post {
     display: inline-flex;
@@ -320,23 +327,43 @@
     padding: 0 5rem;
 	}
 
-  .update-image {
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   .post-text {
     text-align: left;
-    width: 60%
+    width: 60%;
+    margin: 0;
+  }
+
+  .post-text h2 {
+    margin: 0;
   }
 }
 
-/*APPLY/ LOGIN PAGE CONTAINER*/
-@media(min-width:28.125em){
 
-.content{
-  margin: 2.5rem 5rem;
+/* TESTIMONIALS MEDIA QUERIES */
+
+@media(min-width: 50em){
+
+  .testimonial {
+    display: inline-flex;
+	}
+
+  .testimonial-text {
+    text-align: left;
+    width: 50%;
+    margin: 1.5rem;
+  }
+
+  .testimonial-text h2 {
+    margin: 0;
+  }
 }
+
+
+/*APPLY/ LOGIN PAGE CONTAINER*/
+@media(min-width:28.125em) and (max-width: 50em){
+
+  .content {
+    margin: 2.5rem 5rem;
+  }
 
 }
