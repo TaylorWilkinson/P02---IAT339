@@ -270,6 +270,11 @@
     margin-left:0;
   }
 
+  /*RESPONSIVE FORM*/
+    input[type= text] {
+      max-width: 70%;
+    }
+
 }
 
 @media(min-width:56.25em){
@@ -291,6 +296,13 @@
   .product-in-text{
     margin-left:0;
   }
+
+  /*RESPONSIVE FORM*/
+    input[type= text] {
+      width: 40%;
+    }
+
+
 
 }
 
