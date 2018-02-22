@@ -166,11 +166,16 @@ nav li {
 }
 
 
-/**/
+/* News & Updates blog posts */
 .post {
   display: inline-block;
   width: 100%;
   margin: 2.5rem 0;
+}
+
+.update-content h1 {
+  display: block;
+  text-align: center;
 }
 
 .update-image {
@@ -186,6 +191,17 @@ nav li {
   padding: 0 2rem;
 }
 
+
+/* Testimonials - on About page */
+.testimonial {
+  display: inline-block;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.testimonial-text {
+  margin: 1rem 0rem;
+}
 
 
 /* Secondary button */
