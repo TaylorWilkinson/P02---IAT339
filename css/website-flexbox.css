@@ -125,7 +125,7 @@
 }
 
 .content {
-  margin: 2.5rem 5rem;
+  margin: 2.5rem 2rem;
 }
 
 /*NAV BAR*/
@@ -160,7 +160,7 @@
     -ms-justify-content: flex-start;
     justify-content: flex-start;
 
-    margin:1rem 1.3rem;
+    margin:1rem 2rem;
   }
 
   .block {
@@ -176,7 +176,7 @@
     -ms-justify-content: space-around;
     justify-content: space-around;
 
-    margin:1rem 1.3rem;
+    margin:1rem 6rem;
   }
 
   .block {
@@ -270,6 +270,11 @@
     margin-left:0;
   }
 
+  /*RESPONSIVE FORM*/
+    input[type= text] {
+      max-width: 70%;
+    }
+
 }
 
 @media(min-width:56.25em){
@@ -292,8 +297,14 @@
     margin-left:0;
   }
 
-}
+  /*RESPONSIVE FORM*/
+    input[type= text] {
+      width: 40%;
+    }
 
+
+
+}
 
 .post {
   -ms-flex-grow: 1;
@@ -319,4 +330,13 @@
     text-align: left;
     width: 60%
   }
+}
+
+/*APPLY/ LOGIN PAGE CONTAINER*/
+@media(min-width:28.125em){
+
+.content{
+  margin: 2.5rem 5rem;
+}
+
 }

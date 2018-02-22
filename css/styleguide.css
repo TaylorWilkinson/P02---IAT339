@@ -418,22 +418,22 @@ section p {
 }
 
 .s1 {
-  background: #62D006;
+  background: #71B9C1;
 }
 .s2 {
-  background: #04A05D;
+  background: #2CA675;
 }
 .s3 {
-  background: #2EBE80;
+  background: #0F4F46;
 }
 .s4 {
   background: #FFFFFF;
 }
-.s5 {
+/* .s5 {
   background: #DBDBDB;
-}
+} */
 .s6 {
-  background: #2D2D2D;
+  background: #2A2A2A;
   color: #DBDBDB;
 }
 
