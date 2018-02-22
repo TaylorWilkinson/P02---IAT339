@@ -160,7 +160,7 @@
     -ms-justify-content: flex-start;
     justify-content: flex-start;
 
-    margin:1rem 1.3rem;
+    margin:1rem 2rem;
   }
 
   .block {
@@ -176,7 +176,7 @@
     -ms-justify-content: space-around;
     justify-content: space-around;
 
-    margin:1rem 1.3rem;
+    margin:1rem 6rem;
   }
 
   .block {
