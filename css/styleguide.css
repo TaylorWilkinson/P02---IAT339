@@ -250,7 +250,6 @@ input[type=text] {
 
 /*APPLY BUTTON*/
 .apply-button {
-  margin:1rem;
   display: inline-block;
   color: #FFF;
   background-color: #71B9C1;
