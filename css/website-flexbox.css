@@ -35,8 +35,7 @@
   -ms-justify-content: space-around;
   justify-content: space-around;
 
-  margin: 0rem 1.5rem;
-  margin-bottom: 2rem;
+  margin: 2.5rem 5rem;
 }
 
 .product-small-item-container {
@@ -99,7 +98,7 @@
   -ms-justify-content: space-around;
   justify-content: space-around;
 
-  margin:1rem 1.3rem;
+  margin: 1rem 1.3rem;
 }
 
 /*BLOCKS*/
@@ -110,7 +109,7 @@
 }
 
 .content {
-  margin: 2.5rem 2rem;
+  margin: 2.5rem 5rem;
 }
 
 /*NAV BAR*/
@@ -307,6 +306,14 @@
 /* NEWS & UPDATES RESPONSIVE QUERIES */
 @media(min-width: 50em){
 
+  .update-content {
+    -webkit-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    justify-content: flex-start;
+
+    margin: 1rem 11rem;
+  }
+
   .update-image {
     display: block;
     max-width: 50%;
@@ -318,13 +325,11 @@
   .update-content h1 {
     display: inline-block;
     text-align: left;
-    margin: 2.5rem 5rem 0 5rem;
+    margin-bottom: 0;
   }
 
   .post {
     display: inline-flex;
-    margin: 2.5rem 0;
-    padding: 0 5rem;
 	}
 
   .post-text {
@@ -338,18 +343,61 @@
   }
 }
 
+/* ABOUT RESPONSIVE QUERIES */
+@media(min-width: 50em){
+
+  .about-content {
+    -webkit-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    justify-content: flex-start;
+
+    margin: 1rem 11rem;
+  }
+
+  .about-content h1 {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .about-section {
+    display: inline;
+    text-align: left;
+    width: 60%;
+    margin: 0;
+	}
+
+  .about-section h2 {
+    text-align: left;
+    width: 60%;
+    margin: 1rem 0;
+
+  }
+}
+
 
 /* TESTIMONIALS MEDIA QUERIES */
-
 @media(min-width: 50em){
+
+  .feedback {
+    -webkit-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    justify-content: flex-start;
+
+    margin: 1rem 11rem;
+  }
+
+  .feedback h1 {
+    text-align: left;
+  }
 
   .testimonial {
     display: inline-flex;
+    margin: 1rem 0;
 	}
 
   .testimonial-text {
     text-align: left;
-    width: 50%;
+    width: 40%;
     margin: 1.5rem;
   }
 
