@@ -30,6 +30,16 @@ h3 {
   font-size: 1.25rem;
 }
 
+blockquote {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: left;
+  background-color: #EFEFEF;
+  padding: 1.5rem;
+}
+
 p, ol, ul {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -59,6 +69,13 @@ footer {
   padding: 1rem;
   text-align: center;
   font-size: 0.75rem;
+}
+
+
+/* CITATIONS PAGE */
+.citations {
+  margin: 0 2.5rem;
+
 }
 
 
