@@ -1,4 +1,4 @@
-body{
+body {
   /* background-color:#DDDCE2; */
 }
 
@@ -144,6 +144,8 @@ nav li {
   max-width:100%;
 }
 
+
+
 /* Buttons for index.html box-content links */
 .box-link {
   display: inline-block;
@@ -166,11 +168,18 @@ nav li {
 }
 
 
-/**/
+
+/* News & Updates blog posts */
+
 .post {
   display: inline-block;
   width: 100%;
   margin: 2.5rem 0;
+}
+
+.update-content h1 {
+  display: block;
+  text-align: center;
 }
 
 .update-image {
@@ -186,6 +195,43 @@ nav li {
   padding: 0 2rem;
 }
 
+.post-text li {
+  margin: 1rem 0;
+}
+
+
+
+/* About Page */
+.about-content h1 {
+  display: block;
+  text-align: center;
+}
+
+.about-content h2 {
+  display: block;
+  text-align: center;
+}
+
+.about-content a {
+  display: inline-block;
+}
+
+.about-section {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+/* Testimonials in the About page */
+.feedback {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.testimonial-text {
+  margin: 1rem 2.5rem;
+}
 
 
 /* Secondary button */
