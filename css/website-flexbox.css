@@ -228,7 +228,7 @@
   }
 
   .banner-text{
-    position:absolute;
+    position: relative;
     bottom: 17rem;
     left:9rem;
     -webkit-justify-content: flex-start;
