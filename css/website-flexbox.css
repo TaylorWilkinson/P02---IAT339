@@ -223,14 +223,15 @@
 /*banner text*/
 @media(min-width: 62.5em){
 
-  .banner img {
-    position:relative;
+  .banner {
+    position: relative;
   }
 
   .banner-text{
-    position:absolute;
-    bottom: 17rem;
-    left:9rem;
+    position: absolute;
+    bottom: 2.5rem;
+    right: 0;
+    left: 9rem;
     -webkit-justify-content: flex-start;
     -ms-justify-content: flex-start;
     justify-content: flex-start;
