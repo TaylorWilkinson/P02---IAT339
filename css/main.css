@@ -310,8 +310,8 @@ nav li {
 /*apply buttons*/
 .normal-button {
   display: inline-block;
-  color: #2CA675;
-  background-color: #fff;
+  color: #fff;
+  background-color: #2CA675;
   border-radius: 5px;
   padding: 0.50em;
   border-style:solid;
@@ -323,9 +323,9 @@ nav li {
 }
 
 .normal-button:hover, .normal-button:focus {
-  background-color: #2CA675;
+  background-color: #fff;
   border-color: #2CA675;
-  color:#fff;
+  color:#2CA675;
 }
 
 .apply-button {
