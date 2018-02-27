@@ -202,6 +202,20 @@
     justify-content: flex-start;
 
   }
+}
+
+/*banner text*/
+@media(min-width: 62.5em){
+
+.banner img {
+  position:relative;
+}
+
+.banner-text{
+  position:absolute;
+  bottom: 17rem;
+}
+
 
 }
 
