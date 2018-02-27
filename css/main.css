@@ -139,6 +139,21 @@ nav li {
   max-width: 100%;
 }
 
+/*banner text*/
+.banner-text{
+  background: rgba(255, 255, 255, 0.8);
+  margin:1rem 2rem;
+
+}
+
+.banner-description{
+  max-width:100%;
+}
+
+.banner-title{
+  max-width:100%;
+}
+
 /*MAIN PAGE*/
 .box-content {
   max-width: 100%;
@@ -277,7 +292,7 @@ nav li {
   border: 2px solid #DBDBDB;
   padding: 1rem;
   margin-top:0.5rem;
-  border-radius: 1em;
+  /* border-radius: 1em; */
   max-width:100%;
 }
 
@@ -375,9 +390,9 @@ input[type=text] {
 @media(min-width:56.25em){
 
   /*RESPONSIVE FORM*/
-    input[type= text] {
-      width: 40%;
-    }
+  input[type= text] {
+    width: 40%;
+  }
 
 }
 
