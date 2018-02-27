@@ -146,6 +146,14 @@ nav li {
 
 }
 
+.banner-description{
+  max-width:100%;
+}
+
+.banner-title{
+  max-width:100%;
+}
+
 /*MAIN PAGE*/
 .box-content {
   max-width: 100%;
