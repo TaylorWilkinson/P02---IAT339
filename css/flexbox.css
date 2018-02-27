@@ -253,3 +253,13 @@
   }
 
 }
+
+
+/* CITATIONS PAGE */
+.citations {
+  -webkit-flex: 2 2 15em;
+	-ms-flex: 2 2 15em;
+	flex: 2 2 15em;
+
+  margin: 0rem 2rem;
+}

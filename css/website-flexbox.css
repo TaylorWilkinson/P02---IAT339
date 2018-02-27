@@ -384,6 +384,7 @@
     justify-content: flex-start;
 
     margin: 1rem 11rem;
+    text-align: left;
   }
 
   .feedback h1 {
@@ -398,7 +399,6 @@
   .testimonial-text {
     text-align: left;
     width: 40%;
-    margin: 1.5rem;
   }
 
   .testimonial-text h2 {

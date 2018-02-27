@@ -436,6 +436,13 @@ section p {
   color: #DBDBDB;
 }
 
+footer {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: normal;
+}
+
 /*citation
 
 https://codepen.io/ncerminara/pen/eFzJI/
