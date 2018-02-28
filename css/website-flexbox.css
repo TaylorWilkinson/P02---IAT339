@@ -108,8 +108,33 @@
   /*width: 33%*/
 }
 
+/*form*/
 .content {
-  margin: 2.5rem 5rem;
+
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+
+  margin-top:2rem;
+
+}
+
+.log-in{
+  flex-basis:100%;
+  margin:1rem 1.5rem;
+}
+
+.apply-for-account{
+  flex-basis:100%;
+  margin:1rem 1.5rem;
 }
 
 /*NAV BAR*/
@@ -245,8 +270,8 @@
   }
 
   .banner-description{
-      padding:0 2rem;
-      padding-bottom:1rem;
+    padding:0 2rem;
+    padding-bottom:1rem;
   }
 
 }
@@ -454,10 +479,14 @@
 
 
 /*APPLY/ LOGIN PAGE CONTAINER*/
-@media(min-width:28.125em) and (max-width: 50em){
+@media(min-width:37.5em){
 
-  .content {
-    margin: 2.5rem 5rem;
-  }
+.log-in{
+  flex-basis: 40%;
+}
+
+.apply-for-account{
+  flex-basis: 40%;
+}
 
 }
