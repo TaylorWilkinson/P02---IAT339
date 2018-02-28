@@ -383,6 +383,10 @@ fieldset{
   max-width:100%;
 }
 
+.msg-area{
+  max-width: 100%;
+}
+
 input[type=text] {
   font-family: 'Open Sans', sans-serif;
   width: 100%;
