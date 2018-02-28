@@ -372,9 +372,15 @@ label {
   padding-right: 0.5rem;
 }
 
+/*form*/
 form {
   font-family: 'Open Sans', sans-serif;
   display: block;
+}
+
+fieldset{
+  border: 1px solid #DBDBDB;
+  max-width:100%;
 }
 
 input[type=text] {
