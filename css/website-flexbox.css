@@ -123,6 +123,8 @@
   -ms-justify-content: space-around;
   justify-content: space-around;
 
+  margin-top:2rem;
+
 }
 
 .log-in{
@@ -477,7 +479,7 @@
 
 
 /*APPLY/ LOGIN PAGE CONTAINER*/
-@media(min-width:37.5em) and (max-width: 50em){
+@media(min-width:37.5em){
 
 .log-in{
   flex-basis: 40%;
