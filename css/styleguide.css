@@ -68,6 +68,20 @@ p, ol, ul {
   font-size: 0.90rem;
 }
 
+#citation-list{
+    list-style-type: none;
+    max-width:90%;
+}
+
+#citation-list li{
+  max-width:95%;
+  margin:1rem 0;
+}
+
+.style-citation-title{
+  font-weight:600;
+}
+
 p {
   max-width: 75rem;
 }
@@ -276,6 +290,7 @@ input[type=text] {
 
 .apply-para-button{
   display: inline-block;
+  margin:1rem 0.5rem;
   color: #FFF;
   background-color: #71B9C1;
   border-radius: 15px;
@@ -318,7 +333,7 @@ color:#fff;
 /*BULLETED POITNS AND ORDERD POINTS*/
 
 .styling-bullet{
-  list-style-type: square;
+  list-style-type: disc;
   color:#2D2D2D;
   font-size:1rem;
   line-height:1.8rem;
@@ -417,6 +432,7 @@ section p {
 /*apply buttons*/
 .normal-button {
   display: inline-block;
+  margin:1rem 0.5rem;
   color: #fff;
   background-color: #2CA675;
   border-radius: 5px;
@@ -478,22 +494,22 @@ max-width:100%;
   color: #000;
 }
 
-.s1 {
+.swa1 {
   background: #71B9C1;
 }
-.s2 {
+.swa2 {
   background: #2CA675;
 }
-.s3 {
+.swa3 {
   background: #0F4F46;
 }
-.s4 {
+.swa4 {
   background: #FFFFFF;
 }
-.s5 {
+.swa5 {
 background: #DBDBDB;
 }
-.s6 {
+.swa6 {
   background: #2A2A2A;
   color: #DBDBDB;
 }
