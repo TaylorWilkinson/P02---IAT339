@@ -12,7 +12,7 @@
   text-align: left;
 }
 
-.product-text h2  {
+.product-text   {
   text-align: left;
 }
 
@@ -35,7 +35,7 @@
   -ms-justify-content: space-around;
   justify-content: space-around;
 
-  margin: 2.5rem 5rem;
+  margin: 2.5rem 1rem;
 }
 
 .product-small-item-container {
@@ -65,10 +65,6 @@
   z-index:0;
 }
 
-.bg-color-container{
-  z-index:-2;
-  background-color:white;
-}
 
 .product-description{
   max-width:85%;
@@ -82,9 +78,11 @@
 }
 
 
+
+
 /*IN MOBLIE VERSION*/
 /*BOX-CONTENT*/
-.box-content{
+.index-block-content-container{
 
   display: -webkit-flex;
   display: -ms-flex;
@@ -105,11 +103,42 @@
 .block {
   display: inline-block;
   flex-basis:100%;
-  /*width: 33%*/
+  padding: 1rem 1rem;
 }
 
-.content {
-  margin: 2.5rem 5rem;
+/*form*/
+
+.content{
+  margin: 2.5rem 2rem;
+}
+
+.login-content {
+
+/* margin: 2.5rem 5rem; */
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+
+  margin-top:2rem;
+
+}
+
+.log-in{
+  flex-basis:100%;
+  margin:1rem 1.5rem;
+}
+
+.apply-for-account{
+  flex-basis:100%;
+  margin:1rem 1.5rem;
 }
 
 /*NAV BAR*/
@@ -147,6 +176,11 @@
   flex-grow: 1;
 }
 
+.testimonial-text {
+  text-align: left;
+  max-width: 100%;
+}
+
 /*BANNER*/
 .banner-text{
   display: -webkit-flex;
@@ -163,13 +197,16 @@
 
 }
 
+#apply-account-paragraph{
+  max-width:90%;
+}
 
 
 /* media queries */
 /* MAIN PAGE */
 @media(min-width:25em) and (max-width:42.5em){
 
-  .box-content{
+  .index-block-content-container{
     -webkit-justify-content: flex-start;
     -ms-justify-content: flex-start;
     justify-content: flex-start;
@@ -184,9 +221,30 @@
 
 }
 
-@media(min-width:42.5em){
+@media(min-width:42.5em) and (max-width: 56.25em){
 
-  .box-content{
+  .index-block-content-container{
+    /* -webkit-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around; */
+
+    -webkit-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    justify-content: flex-start;
+
+    margin:1rem 4rem;
+  }
+
+  .block {
+    padding: 1rem 1rem;
+    flex-basis:40%;
+  }
+
+}
+
+@media(min-width: 56.25em){
+
+  .index-block-content-container{
     -webkit-justify-content: space-around;
     -ms-justify-content: space-around;
     justify-content: space-around;
@@ -195,7 +253,8 @@
   }
 
   .block {
-    flex-basis:20%;
+    padding: 0.5rem 0.5rem;
+    flex-basis:23%;
   }
 
 
@@ -245,8 +304,12 @@
   }
 
   .banner-description{
-      padding:0 2rem;
-      padding-bottom:1rem;
+    padding:0 2rem;
+    padding-bottom:1rem;
+  }
+
+  .product-content{
+    margin: 2.5rem 5rem;
   }
 
 }
@@ -321,6 +384,10 @@
     max-width: 70%;
   }
 
+  #apply-account-paragraph{
+    max-width:90%;
+  }
+
 }
 
 @media(min-width:56.25em){
@@ -347,6 +414,14 @@
   input[type= text] {
     width: 40%;
   }
+
+  #apply-account-paragraph{
+    max-width:60%;
+  }
+}
+
+.post-text{
+  max-width:100%;
 }
 
 /* NEWS & UPDATES RESPONSIVE QUERIES */
@@ -380,7 +455,7 @@
 
   .post-text {
     text-align: left;
-    width: 60%;
+    max-width: 60%;
     margin: 0;
   }
 
@@ -454,10 +529,18 @@
 
 
 /*APPLY/ LOGIN PAGE CONTAINER*/
-@media(min-width:28.125em) and (max-width: 50em){
+@media(min-width:37.5em){
 
-  .content {
-    margin: 2.5rem 5rem;
-  }
+.log-in{
+  flex-basis: 40%;
+}
+
+.apply-for-account{
+  flex-basis: 40%;
+}
+
+.content{
+  margin:2.5rem 10.5rem;
+}
 
 }
