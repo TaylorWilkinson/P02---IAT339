@@ -6,7 +6,6 @@ body {
   background-color: white;
 }
 
-
 h1 {
   font-family: 'Dosis', sans-serif;
   color: #17544C;
@@ -419,20 +418,12 @@ input[type=text] {
 
 }
 
-@media(min-width:56.25em){
-
-  /*RESPONSIVE FORM*/
-  input[type= text] {
-    width: 40%;
-  }
-
-}
-
 input[type=radio] {
   font-family: 'Open Sans', sans-serif;
   margin: 0.75rem;
   border: 1px solid #DBDBDB;
 }
+
 
 /* SUBMIT BUTTON */
 .submit-button {
