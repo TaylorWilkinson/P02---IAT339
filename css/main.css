@@ -13,6 +13,16 @@ h1 {
   font-weight: 600;
 }
 
+.form-title{
+  font-family: 'Dosis', sans-serif;
+  color: #28AF7A;
+  font-weight: 500;
+  margin: 0.75rem 0rem;
+  font-size: 1.50rem;
+  max-width:100%;
+}
+
+
 h2 {
   font-family: 'Dosis', sans-serif;
   color: #28AF7A;
