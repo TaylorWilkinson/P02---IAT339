@@ -418,6 +418,10 @@
   }
 }
 
+.post-text{
+  max-width:100%;
+}
+
 /* NEWS & UPDATES RESPONSIVE QUERIES */
 @media(min-width: 50em){
 
@@ -426,7 +430,7 @@
     -ms-justify-content: flex-start;
     justify-content: flex-start;
 
-    margin: 1rem 11rem;
+    margin: 1rem 7rem;
   }
 
   .update-image {
@@ -449,7 +453,7 @@
 
   .post-text {
     text-align: left;
-    width: 60%;
+    max-width: 60%;
     margin: 0;
   }
 
