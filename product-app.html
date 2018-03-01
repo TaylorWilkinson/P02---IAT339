@@ -9,7 +9,7 @@
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/website-flexbox.css" rel="stylesheet">
-  
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
@@ -34,32 +34,34 @@
     <div class="banner">
       <img src="image/phone.jpg" alt="a banner image with a sprout that represent the brand">
       <div class="banner-text">
-        <h1 class="banner-title">application</h1>
-        <p class="banner-description">Please fill out and confirm the following information is correct so that we can help your case as soon as possible. Please also make sure that the attached government documents are corrected.</p>
+        <h1 class="banner-title">product application</h1>
+        <p class="banner-description">Please fill out and confirm the following information is correct so that we can process your application as quickly as possible. Also ensure that your uploaded identification documents are up to date.</p>
       </div>
     </div>
   </section>
 
-    <!-- <div class="content">
-      <div class="contact">
-        <h2>Contact Details</h2>
-        <form>
-          First Name:<br>
-          <input type="text" name="fname"><br>
-          Last Name:<br>
-          <input type="text" name="lname"><br>
-          Preferred method of contact:<br>
-          <input type="radio" name="pref-contact" value="phone">Phone
-          <input type="radio" name="pref-contact" value="email">E-mail<br>
-          Sprout Member Number (optional):<br>
-          <input type="text" name="mbr-number"><br>
-          <h2>Message</h2>
-          Message:<br>
-          <textarea rows="4" cols="50" name="message"></textarea><br>
-          <input class="submit-button" type="submit" value="Submit">
-        </form>
-        </div>
-      </div> -->
+  <section>
+    <div class="product-app content">
+      <form action="product-confirm.html">
+        <p>Name:</p>
+        <input type="text" id="field" name="fname" placeholder="First name"><br>
+        <input type="text" id="field" name="lname" placeholder="Last name"><br>
+        <p>Phone Number:</p>
+        <input type="text" id="field" name="number" placeholder="(000)-000-0000"><br>
+        <p>E-mail:</p>
+        <input type="text" id="field" name="email" placeholder="Enter your e-mail"><br>
+        <p>Preferred Contact Method for Follow-up:<br>
+        <input type="checkbox" name="phone" value="Phone">Phone Number<br>
+        <input type="checkbox" name="email" value="Email">E-mail<br>
+        <p>Scanned Identification:</p>
+        <input type="file" name="pic" accept="image/*"><br>
+        <p>Consent for Credit Check:</p>
+        <input type="radio" name="consent" value="Agree">I agree to let Sprout Credit Union to perform a credit check if required for applying for this product.<br>
+        <input type="radio" name="consent" value="Disagree">I do not agree to let Sprout Credit Union to perform a credit check for this application.<br>
+        <input class="submit-button" type="submit" value="submit">
+      </form>
+    </div>
+  </section>
 
       <footer>
         <a href="styleguide.html">STYLEGUIDE</a> | <a href="citations.html">CITATIONS</a>
