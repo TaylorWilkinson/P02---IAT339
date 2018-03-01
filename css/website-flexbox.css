@@ -178,6 +178,11 @@
   flex-grow: 1;
 }
 
+.testimonial-text {
+  text-align: left;
+  max-width: 100%;
+}
+
 /*BANNER*/
 .banner-text{
   display: -webkit-flex;
