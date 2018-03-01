@@ -317,6 +317,17 @@ nav li {
   max-width:100%;
 }
 
+.product ul {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.product li {
+  text-align: left;
+  width: 80%;
+  padding-bottom: 0.5rem;
+}
+
 .product-small-item{
   border: 2px solid #DBDBDB;
   background: #FFFFFF;
