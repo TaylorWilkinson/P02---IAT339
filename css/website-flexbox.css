@@ -424,6 +424,16 @@
   max-width:100%;
 }
 
+/* RESPONSIVE FORM*/
+@media(min-width:56.25em){
+
+  /*RESPONSIVE FORM*/
+  input[type= text] {
+    width: 40%;
+  }
+
+}
+
 /* NEWS & UPDATES RESPONSIVE QUERIES */
 @media(min-width: 50em){
 
