@@ -424,6 +424,26 @@ input[type=radio] {
   border: 1px solid #DBDBDB;
 }
 
+/* Application Form Inputs */
+.apply-now input[type=text] {
+  margin: 0.25rem 0;
+}
+
+.apply-now p {
+  margin: 0.5rem 0;
+  margin-top: 1.5rem;
+}
+
+/* Application Form Inputs */
+.product-app input[type=text] {
+  margin: 0.25rem 0;
+}
+
+.product-app p {
+  margin: 0.5rem 0;
+  margin-top: 1.5rem;
+}
+
 
 /* SUBMIT BUTTON */
 .submit-button {

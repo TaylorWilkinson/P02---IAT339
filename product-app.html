@@ -9,7 +9,7 @@
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/website-flexbox.css" rel="stylesheet">
-  
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
@@ -34,9 +34,28 @@
     <div class="banner">
       <img src="image/phone.jpg" alt="a banner image with a sprout that represent the brand">
       <div class="banner-text">
-        <h1 class="banner-title">application</h1>
-        <p class="banner-description">Please fill out and confirm the following information is correct so that we can help your case as soon as possible. Please also make sure that the attached government documents are corrected.</p>
+        <h1 class="banner-title">product application</h1>
+        <p class="banner-description">Please fill out and confirm the following information is correct so that we can process your application as quickly as possible. Also ensure that your uploaded identification documents are up to date.</p>
       </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="product-app content">
+      <form action="index.html">
+        <p>Name:</p>
+        <input type="text" id="field" name="fname" placeholder="First name"><br>
+        <input type="text" id="field" name="lname" placeholder="Last name"><br>
+        <p>E-mail:</p>
+        <input type="text" id="field" name="email" placeholder="Enter your e-mail"><br>
+        <input type="text" id="field" name="email-confirmation" placeholder="Confirm e-mail"><br>
+        <p>Scanned Identification:</p>
+        <input type="file" name="pic" accept="image/*"><br>
+        <p>Consent for Credit Check:</p>
+        <input type="radio" name="consent" value="Agree">I agree to let Sprout Credit Union to perform a credit check if required for applying for this product.<br>
+        <input type="radio" name="consent" value="Agree">I do not agree to let Sprout Credit Union to perform a credit check for this application.<br>
+        <input class="submit-button" type="submit" value="submit">
+      </form>
     </div>
   </section>
 
