@@ -319,7 +319,7 @@ color:#fff;
 /*BULLETED POITNS AND ORDERD POINTS*/
 
 .styling-bullet{
-  list-style-type: square;
+  list-style-type: disc;
   color:#2D2D2D;
   font-size:1rem;
   line-height:1.8rem;
