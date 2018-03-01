@@ -68,6 +68,20 @@ p, ol, ul {
   font-size: 0.90rem;
 }
 
+#citation-list{
+    list-style-type: none;
+    max-width:90%;
+}
+
+#citation-list li{
+  max-width:95%;
+  margin:1rem 0;
+}
+
+.style-citation-title{
+  font-weight:600;
+}
+
 p {
   max-width: 75rem;
 }
