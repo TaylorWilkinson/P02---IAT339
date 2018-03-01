@@ -194,6 +194,9 @@
 
 }
 
+#apply-account-paragraph{
+  max-width:90%;
+}
 
 
 /* media queries */
@@ -374,6 +377,10 @@
     max-width: 70%;
   }
 
+  #apply-account-paragraph{
+    max-width:90%;
+  }
+
 }
 
 @media(min-width:56.25em){
@@ -399,6 +406,10 @@
   /*RESPONSIVE FORM*/
   input[type= text] {
     width: 40%;
+  }
+
+  #apply-account-paragraph{
+    max-width:60%;
   }
 }
 
