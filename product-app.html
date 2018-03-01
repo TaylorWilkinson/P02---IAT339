@@ -42,18 +42,22 @@
 
   <section>
     <div class="product-app content">
-      <form action="index.html">
+      <form action="product-confirm.html">
         <p>Name:</p>
         <input type="text" id="field" name="fname" placeholder="First name"><br>
         <input type="text" id="field" name="lname" placeholder="Last name"><br>
+        <p>Phone Number:</p>
+        <input type="text" id="field" name="number" placeholder="(000)-000-0000"><br>
         <p>E-mail:</p>
         <input type="text" id="field" name="email" placeholder="Enter your e-mail"><br>
-        <input type="text" id="field" name="email-confirmation" placeholder="Confirm e-mail"><br>
+        <p>Preferred Contact Method for Follow-up:<br>
+        <input type="checkbox" name="phone" value="Phone">Phone Number<br>
+        <input type="checkbox" name="email" value="Email">E-mail<br>
         <p>Scanned Identification:</p>
         <input type="file" name="pic" accept="image/*"><br>
         <p>Consent for Credit Check:</p>
         <input type="radio" name="consent" value="Agree">I agree to let Sprout Credit Union to perform a credit check if required for applying for this product.<br>
-        <input type="radio" name="consent" value="Agree">I do not agree to let Sprout Credit Union to perform a credit check for this application.<br>
+        <input type="radio" name="consent" value="Disagree">I do not agree to let Sprout Credit Union to perform a credit check for this application.<br>
         <input class="submit-button" type="submit" value="submit">
       </form>
     </div>

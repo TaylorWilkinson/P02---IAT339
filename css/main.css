@@ -434,6 +434,12 @@ input[type=radio] {
   margin-top: 1.5rem;
 }
 
+/* Product Application Form */
+.product-app input[type=checkbox] {
+  margin: 0.5rem 0;
+  margin-right: 0.5rem;
+}
+
 /* Application Form Inputs */
 .product-app input[type=text] {
   margin: 0.25rem 0;
