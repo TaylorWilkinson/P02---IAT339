@@ -276,6 +276,7 @@ input[type=text] {
 
 .apply-para-button{
   display: inline-block;
+  margin:1rem 0.5rem;
   color: #FFF;
   background-color: #71B9C1;
   border-radius: 15px;
@@ -417,6 +418,7 @@ section p {
 /*apply buttons*/
 .normal-button {
   display: inline-block;
+  margin:1rem 0.5rem;
   color: #fff;
   background-color: #2CA675;
   border-radius: 5px;
