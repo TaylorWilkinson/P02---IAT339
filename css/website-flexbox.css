@@ -383,6 +383,10 @@
   input[type= text] {
     max-width: 70%;
   }
+  input[type=password] {
+    width: 70%;
+  }
+
 
   #apply-account-paragraph{
     max-width:90%;
@@ -414,6 +418,9 @@
   input[type= text] {
     width: 40%;
   }
+  input[type=password] {
+    width: 40%;
+  }
 
   #apply-account-paragraph{
     max-width:60%;
@@ -429,6 +436,9 @@
 
   /*RESPONSIVE FORM*/
   input[type= text] {
+    width: 40%;
+  }
+  input[type=password] {
     width: 40%;
   }
 
