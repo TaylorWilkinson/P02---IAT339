@@ -155,12 +155,12 @@ nav li {
 }
 
 /*MAIN PAGE*/
-.box-content {
+.index-block-content-container {
   max-width: 100%;
   /*margin: 1rem 2rem;*/
 }
 
-.box-content h2 {
+.index-block-content-container h2 {
   text-align: left;
 }
 
