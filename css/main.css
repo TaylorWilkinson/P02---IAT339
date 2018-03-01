@@ -155,12 +155,12 @@ nav li {
 }
 
 /*MAIN PAGE*/
-.box-content {
+.index-block-content-container {
   max-width: 100%;
   /*margin: 1rem 2rem;*/
 }
 
-.box-content h2 {
+.index-block-content-container h2 {
   text-align: left;
 }
 
@@ -168,12 +168,23 @@ nav li {
 .block {
   display: inline-block;
   max-width:100%;
-  margin:0 1rem;
-  /*width: 33%*/
+  margin:2rem 1rem;
+  border: 1px solid #DBDBDB;
+  -webkit-transition: border-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out;
+}
+
+.block:hover, .block:focus{
+  border: 1px solid #2A2A2A;
 }
 
 .main-blocks-content{
   max-width:100%;
+}
+
+.index-item-dexcription{
+  color: #2A2A2A;
+  font-size:0.9rem;
 }
 
 
