@@ -170,10 +170,21 @@ nav li {
   max-width:100%;
   margin:2rem 1rem;
   border: 1px solid #DBDBDB;
+  -webkit-transition: border-color 0.3s ease-out;
+  transition: border-color 0.3s ease-out;
+}
+
+.block:hover, .block:focus{
+  border: 1px solid #2A2A2A;
 }
 
 .main-blocks-content{
   max-width:100%;
+}
+
+.index-item-dexcription{
+  color: #2A2A2A;
+  font-size:0.9rem;
 }
 
 
