@@ -203,6 +203,11 @@
 	padding: 1rem 1rem;
 }
 
+.grid-block{
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+
+}
 
 /*for index block*/
 @media(min-width:25em) and (max-width:42.5em){
