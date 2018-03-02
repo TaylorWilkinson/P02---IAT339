@@ -511,7 +511,19 @@
     text-align: left;
     width: 60%;
     margin: 1rem 0;
+  }
 
+  .go-apply {
+    display: inline;
+    text-align: left;
+    width: 60%;
+    margin: 0;
+  }
+
+  .go-apply h2 {
+    text-align: left;
+    width: 60%;
+    margin: 1rem 0;
   }
 }
 

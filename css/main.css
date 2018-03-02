@@ -264,16 +264,21 @@ nav li {
   text-align: center;
 }
 
-.about-content a {
-  display: inline-block;
-}
-
 .about-section {
   display: inline-block;
   max-width: 100%;
   margin:0 1.5rem;
   text-align: left;
 }
+
+.go-apply {
+  text-align: center;
+}
+
+#open-account {
+  display: inline-block;
+}
+
 
 /* Testimonials in the About page */
 .feedback {
