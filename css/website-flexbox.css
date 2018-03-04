@@ -204,7 +204,7 @@
 
 /* media queries */
 /* MAIN PAGE */
-@media(min-width:25em) and (max-width:42.5em){
+@media(min-width:31.25em) and (max-width:42.5em){
 
   .index-block-content-container{
     -webkit-justify-content: flex-start;
